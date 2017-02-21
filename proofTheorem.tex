@@ -80,7 +80,7 @@ where  $c_i = \sqrt{\frac{\rho_{a}\log (\psi T\epsilon_{m_{i}}^{2})}{2 z_{i}}}$.
 %\todos[inline]{The stmt ``$m_{i}$ does not happen'' makes no sense given that we are in round $\max(m_i,g_i)$}
 %\todos[inline]{What is $c_m$?}
   %Now, $c_{m_{i}}=\sqrt{\frac{\rho_{a}\log (\psi T\epsilon_{m_{i}}^{2})}{2 n_{m_{i}}}}$.
-In the above, we have used the fact that $n_{m_i} < n_{m_*}$ and so \\ $c^{*} \leq c_i = \sqrt{\rho_{a}\epsilon_{m_{i}+1}} < \frac{\Delta_{i}}{4}$, since $z_i = n_{m_{i}}=\frac{2\log{(\psi T\epsilon_{m_{i}}^{2})}}{\epsilon_{m_{i}}}$ and $\rho_{a}\in (0,1]$.
+In the above, we have used the fact that $n_{m_i} \leq n_{m_*}$ and so \\ $c^{*} \leq c_i = \sqrt{\rho_{a}\epsilon_{m_{i}+1}} < \frac{\Delta_{i}}{4}$, since $z_i = n_{m_{i}}=\frac{2\log{(\psi T\epsilon_{m_{i}}^{2})}}{\epsilon_{m_{i}}}$ and $\rho_{a}\in (0,1]$.
 
 From the foregoing, we have to bound the events complementary to that in \eqref{eq:armelim-casea1} for an arm $i$ to not get eliminated. Considering Chernoff-Hoeffding bound this is done as follows:
 %\todos[inline]{In the following, $\exists a_i$ is spurious given that we are talking about arm $a_i$ all through in this case} 
@@ -158,7 +158,7 @@ Thus, the probability that a sub-optimal arm ${i}$ is not eliminated in any roun
 
 Following a parallel argument like in Case $a1$, we have to bound the following two events of arm $a_{\max_{s_{k}}}$ not getting eliminated on or before $g_{s_{k}}$-th round,
 \begin{align*}
-  \hat{r}_{a_{\max_{s_{k}}}} \geq r_{a_{\max_{s_{k}}}} +c_{a_{\max_{s_{k}}}} \text{ and } \hat{r}^{*} \leq r^{*} -c_{a_{\max_{s_{k}}}}  
+  \hat{r}_{a_{\max_{s_{k}}}} \geq r_{a_{\max_{s_{k}}}} +c_{a_{\max_{s_{k}}}} \text{ and } \hat{r}^{*} \leq r^{*} -c^{*}  
 \end{align*} 
 
 We can prove using Chernoff-Hoeffding bounds and considering independence of events mentioned above, that for $c_{a_{\max_{s_{k}}}}=\sqrt{\frac{\rho_{s} \log (\psi T\epsilon_{g_{s_{k}}}^{2})}{2 z_{a_{\max_{s_{k}}}}}}$ and  $z_{a_{\max_{s_{k}}}}= n_{g_{s_{k}}}=\frac{2\log{(\psi T\epsilon_{g_{s_{k}}}^{2})}}{\epsilon_{g_{s_{k}}}}$ the probability of the above two events is bounded by $\bigg(\dfrac{2}{(\psi  T\epsilon_{g_{s_{k}}}^{2})^{\rho_{s}}}\bigg)$.
@@ -181,8 +181,6 @@ Summing up over all $p$ clusters and bounding the regret for each arm $i\in A_{s
  \end{align*}
 % &= \sum_{i\in A^{'}}\bigg(\frac{C_{1}(\rho_{s})T^{1-\rho_{s}}}{\Delta_{i}^{4\rho_{s}-1}}\bigg) \text{, where } C_1(x) = \frac{2^{1+4x}x^{2x}}{\psi^{x}}
 %&\leq \sum_{i\in A}\bigg(\frac{2^{1+4\rho_{s}}T^{1-\rho_{s}}\rho_{s}^{2\rho_{s}}\Delta_{i}}{\psi^{\rho_{s}}\Delta_{i}^{4\rho_{s}}}\bigg)\\
-
-
 
 Summing the bounds in Cases $a1-a2$ and observing that the bounds in the aforementioned cases hold for any round $C_{\max \lbrace m_i,g_{s_k}\rbrace}$, we obtain the following contribution to the expected regret from case a:
    %Taking summation of the events mentioned above($a1$-$a4$) gives us an upper bound on the regret given that the optimal arm $a^{*}$ is still surviving, 
@@ -239,7 +237,7 @@ Optimal arm $a^*$ can get eliminated by some sub-optimal arm $i$ only if arm eli
 \begin{align*}
 \hat r_{i} - c_{i} > \hat{r}^{*}+ c^{*},
 \end{align*}
-where, as mentioned before, $c_i  =\sqrt{\frac{\rho_{a}\log (\psi T\epsilon_{m_{i}}^{2})}{2 n_{m_{i}}}}$.
+where, as mentioned before, $c_i  =\sqrt{\frac{\rho_{a}\log (\psi T\epsilon_{m_{i}}^{2})}{2 z_{i}}}$.
 From analysis in Case $a1$, notice that, if \eqref{eq:armelim-casea1} holds in conjunction with the above, arm $i$ gets eliminated. Also, recall from Case $a1$ that the events complementary to \eqref{eq:armelim-casea1} have low-probability and can be upper bounded by $\frac{2}{(\psi  T\epsilon_{m_{*}}^{2})^{\rho_{a}}}$. Moreover, a sub-optimal arm that eliminates $*$ has to survive until round $m_*$. In other words, 
 all arms ${j}\in s^{*}$ such that $m_{j} < m_{*}$ are eliminated on or before $m_*$ (this corresponds to case b1). 
 Let, the arms surviving till $m_{*}$ round be denoted by $A^{'}_{s^{*}}$. This leaves any arm $a_{b}$ such that $m_{b}\geq m_{*} $ to still survive and eliminate arm ${*}$ in round $m_{*}$. Let, such arms that survive ${*}$ belong to $A^{''}_{s^{*}}$. Also maximal regret per step after eliminating ${*}$ is the maximal $\Delta_{j}$ among the remaining arms in $A^{''}_{s^{*}}$ with $m_{j}\geq m_{*}$.  Let $m_{b}=\min\lbrace m|\sqrt{\rho_{a}\epsilon_{m}}<\frac{\Delta_{b}}{2}\rbrace$. Let $C_2(x) = \frac{2^{2x+\frac{3}{2}}x^{2x}}{\psi^{x}}$. Hence, the maximal regret after eliminating the arm ${*}$ is upper bounded by, 
@@ -273,7 +271,7 @@ Let, the arms surviving till $m_{*}$ round be denoted by $A^{'}_{s^{*}}$. This l
 
 Let $C_{g}^{'}=\lbrace a_{max_{s_{k}}}\in A^{'}|\forall s_{k}\in S \rbrace$ and $C_{g}^{''}=\lbrace a_{max_{s_{k}}}\in A^{''}|\forall s_{k}\in S \rbrace$. A sub-optimal cluster $s_k$ will eliminate $s^*$ in round $g_*$ only if the cluster elimination condition of Algorithm \ref{alg:eclusucb} holds, which is the following when ${*}\in C_{g_{*}}$:
 \begin{align}
-\hat r_{a_{\max_{s_k}}} - c_{a_{\max_{s_k}}} > \hat{r}^{*}+ c_{g_{*}}.
+\hat r_{a_{\max_{s_k}}} - c_{a_{\max_{s_k}}} > \hat{r}^{*}+ c^{*}.
 \label{eq:caseb3-cluselim}
 \end{align}
 Notice that when ${*}\notin C_{g_{*}}$, since $r_{a_{max_{s_{k}}}}>r^{*}$, the inequality in \eqref{eq:caseb3-cluselim} has to hold for cluster $s_k$ to eliminate $s^*$.

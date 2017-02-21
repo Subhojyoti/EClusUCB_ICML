@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.18)  21 FEB 2017 20:22
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.18)  21 FEB 2017 22:29
 entering extended mode
 **clustered_ucb.tex
 (C:\Users\Subhojyoti\Desktop\github\EClusUCB_ICML\clustered_ucb.tex
@@ -1705,78 +1705,78 @@ n/10 $
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 202--203
+Underfull \hbox (badness 10000) in paragraph at lines 200--201
 
  []
 
 
-Overfull \hbox (7.91563pt too wide) in paragraph at lines 224--224
+Overfull \hbox (7.91563pt too wide) in paragraph at lines 222--222
 [] 
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 243.
+Package xcolor Warning: Incompatible color definition on input line 241.
 
 
-Package xcolor Warning: Incompatible color definition on input line 243.
+Package xcolor Warning: Incompatible color definition on input line 241.
 
 [6]
 
-Package xcolor Warning: Incompatible color definition on input line 274.
+Package xcolor Warning: Incompatible color definition on input line 272.
 
 
-Package xcolor Warning: Incompatible color definition on input line 279.
+Package xcolor Warning: Incompatible color definition on input line 277.
 
 
-LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 285.
-
-
-
-LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 285.
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 283.
 
 
 
-Overfull \hbox (5.22963pt too wide) in paragraph at lines 285--285
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 283.
+
+
+
+Overfull \hbox (5.22963pt too wide) in paragraph at lines 283--283
 [] 
  []
 
 
-Overfull \hbox (4.55388pt too wide) in paragraph at lines 295--295
+Overfull \hbox (4.55388pt too wide) in paragraph at lines 293--293
 [] 
  []
 
 
-Underfull \hbox (badness 1472) in paragraph at lines 333--334
+Underfull \hbox (badness 1472) in paragraph at lines 331--332
 []\OT1/ptm/b/n/10 Case b4: $[]$ \OT1/ptm/m/it/10 is not in $\OML/cmm/m/it/10 C[
 ]$\OT1/ptm/m/it/10 , but be-longs to
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 360.
+Package xcolor Warning: Incompatible color definition on input line 358.
 
 
-Package xcolor Warning: Incompatible color definition on input line 360.
+Package xcolor Warning: Incompatible color definition on input line 358.
 
 
-Package xcolor Warning: Incompatible color definition on input line 360.
+Package xcolor Warning: Incompatible color definition on input line 358.
 
 
-Package xcolor Warning: Incompatible color definition on input line 360.
+Package xcolor Warning: Incompatible color definition on input line 358.
 
 
-Package xcolor Warning: Incompatible color definition on input line 360.
+Package xcolor Warning: Incompatible color definition on input line 358.
 
 
-Package xcolor Warning: Incompatible color definition on input line 360.
+Package xcolor Warning: Incompatible color definition on input line 358.
 
 
-Package xcolor Warning: Incompatible color definition on input line 360.
+Package xcolor Warning: Incompatible color definition on input line 358.
 
 
-Package xcolor Warning: Incompatible color definition on input line 360.
+Package xcolor Warning: Incompatible color definition on input line 358.
 
 
-Package xcolor Warning: Incompatible color definition on input line 360.
+Package xcolor Warning: Incompatible color definition on input line 358.
 
 ) (C:\Users\Subhojyoti\Desktop\github\EClusUCB_ICML\expts.tex
 PGFPlots: reading {results/NewExpt/Expt1/UCBV01_comp_subsampled.txt}
@@ -2320,7 +2320,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 179.
 Here is how much of TeX's memory you used:
  31427 strings out of 493921
  743285 string characters out of 3144861
- 993418 words of memory out of 3000000
+ 992417 words of memory out of 3000000
  33980 multiletter control sequences out of 15000+200000
  40659 words of font info for 94 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -2353,7 +2353,7 @@ rier/ucrr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a
 rogram Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program File
 s (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb><C:/Program Files (x86)/Mi
 KTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on clustered_ucb.pdf (21 pages, 489344 bytes).
+Output written on clustered_ucb.pdf (21 pages, 489371 bytes).
 PDF statistics:
  553 PDF objects out of 1000 (max. 8388607)
  104 named destinations out of 1000 (max. 500000)
