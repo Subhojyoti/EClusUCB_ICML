@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.18)  21 FEB 2017 20:13
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.18)  21 FEB 2017 20:22
 entering extended mode
 **clustered_ucb.tex
-(C:\Users\Subhojyoti\Desktop\github\bandit_ICML\clustered_ucb.tex
+(C:\Users\Subhojyoti\Desktop\github\EClusUCB_ICML\clustered_ucb.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -85,7 +85,7 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfig@top=\skip47
 \subfig@bottom=\skip48
 )
-(C:\Users\Subhojyoti\Desktop\github\bandit_ICML\natbib.sty
+(C:\Users\Subhojyoti\Desktop\github\EClusUCB_ICML\natbib.sty
 Package: natbib 2009/07/16 8.31 (PWD, AO)
 \bibhang=\skip49
 \bibsep=\skip50
@@ -207,10 +207,10 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip51
 )
-(C:\Users\Subhojyoti\Desktop\github\bandit_ICML\icml2017.sty
+(C:\Users\Subhojyoti\Desktop\github\EClusUCB_ICML\icml2017.sty
 Package: icml2017 2017/01/01 v2.0 ICML Conference Style File
 
-(C:\Users\Subhojyoti\Desktop\github\bandit_ICML\fancyhdr.sty
+(C:\Users\Subhojyoti\Desktop\github\EClusUCB_ICML\fancyhdr.sty
 \fancy@headwidth=\skip52
 \f@ncyO@elh=\skip53
 \f@ncyO@erh=\skip54
@@ -229,7 +229,7 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 )
-(C:\Users\Subhojyoti\Desktop\github\bandit_ICML\eso-pic.sty
+(C:\Users\Subhojyoti\Desktop\github\EClusUCB_ICML\eso-pic.sty
 Package: eso-pic 2002/11/16 v1.1b eso-pic (RN)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
@@ -252,7 +252,7 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 101.
 \cv@tmpc@=\count108
 \cv@tmpc=\count109
 )
-(C:\Users\Subhojyoti\Desktop\github\bandit_ICML\macros.sty
+(C:\Users\Subhojyoti\Desktop\github\EClusUCB_ICML\macros.sty
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks15
@@ -334,7 +334,7 @@ Package: amsthm 2004/08/06 v2.20
 \thm@headsep=\skip66
 \dth@everypar=\toks26
 )
-(C:\Users\Subhojyoti\Desktop\github\bandit_ICML\algorithm.sty
+(C:\Users\Subhojyoti\Desktop\github\EClusUCB_ICML\algorithm.sty
 Package: algorithm 
 
 Document Style `algorithm' - floating environment
@@ -634,7 +634,7 @@ File: babel.def 2008/07/08 v3.8m Babel common definitions
 \c@proposition=\count138
 \c@corollary=\count139
 
-(C:\Users\Subhojyoti\Desktop\github\bandit_ICML\pifont.sty
+(C:\Users\Subhojyoti\Desktop\github\EClusUCB_ICML\pifont.sty
 Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
 LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
 
@@ -1210,7 +1210,7 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \c@nlinenum=\count168
 \TeXr@lab=\toks50
 ))
-(C:\Users\Subhojyoti\Desktop\github\bandit_ICML\clustered_ucb.aux)
+(C:\Users\Subhojyoti\Desktop\github\EClusUCB_ICML\clustered_ucb.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
 LaTeX Font Info:    ... okay on input line 52.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
@@ -1258,8 +1258,8 @@ LaTeX Info: Redefining \ref on input line 52.
 LaTeX Info: Redefining \pageref on input line 52.
 LaTeX Info: Redefining \nameref on input line 52.
 
-(C:\Users\Subhojyoti\Desktop\github\bandit_ICML\clustered_ucb.out)
-(C:\Users\Subhojyoti\Desktop\github\bandit_ICML\clustered_ucb.out)
+(C:\Users\Subhojyoti\Desktop\github\EClusUCB_ICML\clustered_ucb.out)
+(C:\Users\Subhojyoti\Desktop\github\EClusUCB_ICML\clustered_ucb.out)
 \@outlinefile=\write4
 
 ABD: EveryShipout initializing macros
@@ -1308,7 +1308,7 @@ Package xcolor Warning: Incompatible color definition on input line 117.
 
 Package xcolor Warning: Incompatible color definition on input line 117.
 
-(C:\Users\Subhojyoti\Desktop\github\bandit_ICML\intro.tex
+(C:\Users\Subhojyoti\Desktop\github\EClusUCB_ICML\intro.tex
 
 Package xcolor Warning: Incompatible color definition on input line 24.
 
@@ -1574,7 +1574,7 @@ Package xcolor Warning: Incompatible color definition on input line 87.
 
 Package xcolor Warning: Incompatible color definition on input line 87.
 
-) (C:\Users\Subhojyoti\Desktop\github\bandit_ICML\ealgo.tex
+) (C:\Users\Subhojyoti\Desktop\github\EClusUCB_ICML\ealgo.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 34.
 
@@ -1631,7 +1631,7 @@ Package xcolor Warning: Incompatible color definition on input line 89.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-(C:\Users\Subhojyoti\Desktop\github\bandit_ICML\results.tex
+(C:\Users\Subhojyoti\Desktop\github\EClusUCB_ICML\results.tex
 
 Package xcolor Warning: Incompatible color definition on input line 45.
 
@@ -1684,7 +1684,7 @@ Package xcolor Warning: Incompatible color definition on input line 150.
 
 Package xcolor Warning: Incompatible color definition on input line 150.
 
-) (C:\Users\Subhojyoti\Desktop\github\bandit_ICML\proofTheorem.tex
+) (C:\Users\Subhojyoti\Desktop\github\EClusUCB_ICML\proofTheorem.tex
 
 Package xcolor Warning: Incompatible color definition on input line 69.
 
@@ -1778,7 +1778,7 @@ Package xcolor Warning: Incompatible color definition on input line 360.
 
 Package xcolor Warning: Incompatible color definition on input line 360.
 
-) (C:\Users\Subhojyoti\Desktop\github\bandit_ICML\expts.tex
+) (C:\Users\Subhojyoti\Desktop\github\EClusUCB_ICML\expts.tex
 PGFPlots: reading {results/NewExpt/Expt1/UCBV01_comp_subsampled.txt}
 PGFPlots: reading {results/NewExpt/Expt1/UCB01_comp_subsampled.txt}
 PGFPlots: reading {results/NewExpt/Expt1/KLUCB01_comp_subsampled.txt}
@@ -1957,7 +1957,7 @@ Package xcolor Warning: Incompatible color definition on input line 151.
 
 Package xcolor Warning: Incompatible color definition on input line 151.
 
-) [8] (C:\Users\Subhojyoti\Desktop\github\bandit_ICML\clustered_ucb.bbl
+) [8] (C:\Users\Subhojyoti\Desktop\github\EClusUCB_ICML\clustered_ucb.bbl
 Underfull \hbox (badness 2302) in paragraph at lines 20--25
 []\OT1/ptm/m/n/10 Audibert, Jean-Yves, Munos, R[]emi, and Szepesv[]ari,
  []
@@ -1989,7 +1989,7 @@ rint
 
 ]) [10
 
-] (C:\Users\Subhojyoti\Desktop\github\bandit_ICML\appendix.tex
+] (C:\Users\Subhojyoti\Desktop\github\EClusUCB_ICML\appendix.tex
 
 Package xcolor Warning: Incompatible color definition on input line 4.
 
@@ -2118,8 +2118,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 552--552
  []
 
 
-Overfull \hbox (5.72575pt too wide) in paragraph at lines 552--552
-\OT1/ptm/m/n/10 (ClusUCB-
+Overfull \hbox (11.83574pt too wide) in paragraph at lines 552--552
+\OT1/ptm/m/n/10 (EClusUCB-
  []
 
 
@@ -2176,8 +2176,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 559--559
  []
 
 
-Overfull \hbox (5.72575pt too wide) in paragraph at lines 559--559
-\OT1/ptm/m/n/10 (ClusUCB)| 
+Overfull \hbox (11.83574pt too wide) in paragraph at lines 559--559
+\OT1/ptm/m/n/10 (EClusUCB)| 
  []
 
 
@@ -2310,7 +2310,7 @@ Package atveryend Info: Empty hook `BeforeClearDocument' on input line 179.
  [21]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 179.
 
-(C:\Users\Subhojyoti\Desktop\github\bandit_ICML\clustered_ucb.aux)
+(C:\Users\Subhojyoti\Desktop\github\EClusUCB_ICML\clustered_ucb.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 179.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 179.
 Package rerunfilecheck Info: File `clustered_ucb.out' has not changed.
@@ -2319,7 +2319,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 179.
  ) 
 Here is how much of TeX's memory you used:
  31427 strings out of 493921
- 743207 string characters out of 3144861
+ 743285 string characters out of 3144861
  993418 words of memory out of 3000000
  33980 multiletter control sequences out of 15000+200000
  40659 words of font info for 94 fonts, out of 3000000 for 9000
