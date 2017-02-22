@@ -38,7 +38,7 @@ for all $b\geq\sqrt{\frac{K}{14 T}}$. In the above, $C_1, C_2$ are as defined in
 
 
 \begin{proof}
-Let $p=1$ such that all the arms in set $A$ belongs to a single cluster. So, for each sub-optimal arm ${i}$, $m_{i}=\min{\lbrace m|\sqrt{\rho_{a}\epsilon_{m}} < \dfrac{\Delta_{i}}{2} \rbrace}$. Also $\rho_{a}\in (0,1]$ is a constant in this proof. Let $A^{'}=\lbrace i\in A: \Delta_{i} > b \rbrace$ and $A^{''}=\lbrace i\in A: \Delta_{i} > 0 \rbrace$.
+Let $p=1$ such that all the arms in $A$ belongs to a single cluster. Hence, in EClusUCB-AE there is only arm elimination and no cluster elimination. Let, for each sub-optimal arm ${i}$, $m_{i}=\min{\lbrace m|\sqrt{\rho_{a}\epsilon_{m}} < \dfrac{\Delta_{i}}{2} \rbrace}$. Also $\rho_{a}\in (0,1]$ is a constant in this proof. Let $A^{'}=\lbrace i\in A: \Delta_{i} > b \rbrace$ and $A^{''}=\lbrace i\in A: \Delta_{i} > 0 \rbrace$. Also $z_{i}$ denotes total number of times an arm $i$ has been pulled. In the $m$-th round, $n_{m}$ denotes the number of pulls allocated to the surviving arms in $B_{m}$. 
 
 %The theoretical analysis remains same as we have always bounded the values of $\rho_{a}\in (0,1]$.
 
@@ -53,12 +53,10 @@ Let $p=1$ such that all the arms in set $A$ belongs to a single cluster. So, for
 	Following the steps of Theorem \ref{Result:Theorem:1} Case $a1$, an arbitrary sub-optimal arm ${i}\in A^{'}$ can get eliminated only when the event,
 	\begin{align}
 	\hat{r}_{i}  \le r_{i} + c_{i} \text{ and } \label{eq:appA:armelim-casea}
- 	\hat{r}^{*}\geq  r^{*} - c_{i}
+ 	\hat{r}^{*}\geq  r^{*} - c^{*}
 	\end{align}
 	
-	takes place. So to bound the regret we need to bound the probability of the complementary event of these two conditions.
-  
-  Putting the value of $z_{i}=n_{m_{i}}=\dfrac{2\log{(\psi T\epsilon_{m_{i}}^{2})}}{\epsilon_{m_{i}}}$ in $c_{i}$,
+	takes place. So to bound the regret we need to bound the probability of the complementary event of these two conditions. Note that  $c_i = \sqrt{\frac{\rho_{a}\log (\psi T\epsilon_{m_{i}}^{2})}{2 z_{i}}}$. Any arm $i$ in the $m_{i}$-th round cannot be pulled more than $n_{m_{i}}$ number of times as it will get eliminated as arm elimination condition is being checked in every timestep. This is because in the $m_i$-th round $z_{i}=n_{m_{i}}=\dfrac{2\log{(\psi T\epsilon_{m_{i}}^{2})}}{\epsilon_{m_{i}}}$. Putting this in $c_{i}$ we get,
   $c_{i}=\sqrt{\dfrac{\rho_{a}\epsilon_{m_{i}}\log (\psi T\epsilon_{m_{i}}^{2})}{2*2 \log(\psi T\epsilon_{m_{i}}^{2})}}=\dfrac{\sqrt{\rho_{a}\epsilon_{m_{i}}}}{2} = \sqrt{\rho_{a}\epsilon_{m_{i}+1}} < \dfrac{\Delta_{i}}{4} $, as $\rho_{a}\in (0,1]$.
 %\leq\dfrac{\epsilon_{m}\sqrt{\ell_{m}}}{2\sqrt{w\ell_{m}}}\leq \dfrac{\epsilon_{m}}{2\sqrt{w}}$.
 %  But in $\xi_{1}$, $\ell_{m}=2^{m}$.
@@ -72,36 +70,7 @@ Let $p=1$ such that all the arms in set $A$ belongs to a single cluster. So, for
  \leq \hat{r}^{*} - c^{*}
   \end{align*}
 
-%% \hspace*{14em}$= \hat{r}_{i}-\sqrt{\epsilon_{m}} + 2c_{m} +\sqrt{\epsilon_{m}}$
-% \hspace*{14em}$= r_{i} + 5\dfrac{\sqrt{\epsilon_{m}}}{\sqrt{w_{s_{i}}}} - 2\sqrt{w_{s_{i}}}c_{m}$
-%  \hspace*{4em}
-%  But, $\epsilon_{m}=\dfrac{\hat{\Delta}_{s,m}}{\ell_{m}}$, where $\hat{\Delta}_{s,m}=\max_{i\in B_{m}}{\hat{r}_{i}}-\min_{j\in B_{m}}{\hat{r}_{j}},i\neq j$ and $\ell_{m}$ is increased after every round.
-%  \hspace*{4em}$\leq \hat{r}_{i} + \epsilon_{m} 2^{(m-4)/2} - 2c$
-% Hence, we get that as soon as $\sqrt{\rho_{a}\epsilon_{m_{i}}}<\dfrac{\Delta_{i}}{2}$, ${i}$ gets eliminated.
-%  So, $\hat{r}_{i}+c_{m}\leq \hat{r}_{i}+2c_{m}\leq r_{i} + \Delta_{i} - 2\sqrt{w_{s_{i}}}c_{m}\leq r^{*} - 2\sqrt{w_{s_{i}}}c_{m}$
-%\leq \hat{r}^{*} - \sqrt{w}c_{m}
-%  $\Rightarrow\hat{r}_{i}+c_{m}\leq \hat{r}_{i} - \sqrt{w}c_{m}  \leq r^{*} - \sqrt{w}c_{m}$
-%  $\Rightarrow \hat{r}_{i} \leq {r}^{*} - 2\sqrt{w_{s_{i}}}c_{m} - 2c_{m} \leq \hat{r}^{*} - 2\sqrt{w_{s_{i}}}c_{m}$
-% So, we need to bound the probability of the event of $\hat{r}_{i}+c_{m_{i}}\geq \hat{r}^{*}-c_{m_{i}}$.
-%given that $\sqrt{\rho_{a}\epsilon_{m_{i}}}<\dfrac{\Delta_{i}}{2}$ becomes true for arm $a_{i}$ on or before $m_{i}$-th round with $c_{m_{i}}=\sqrt{\dfrac{\rho_{a}\log (\psi T\epsilon_{m_{i}}^{2})}{2 n_{m_{i}}}}$.
-%  $\Rightarrow \hat{r}_{i}+2c_{m}\leq \hat{r}_{i} + 2\sqrt{w}c_{m} \leq \hat{r}^{*}$
-%  $\Rightarrow \hat{r}_{i} + \sqrt{w}c_{m} \leq \hat{r}^{*} - \sqrt{w}c_{m}$
-%  $\Rightarrow\hat{r}_{i}+c_{m}\sqrt{\dfrac{w\ell_{m}}{\epsilon_{m}}} \leq \hat{r}^{*}-c_{m}\sqrt{\dfrac{w\ell_{m}}{\epsilon_{m}}} $, as $c_{m}\sqrt{\dfrac{w\ell_{m}}{\epsilon_{m}}} > 0$
-
-%\begin{proof} of Proposition 2:
-% 
-%Now, we can bound $\hat{r}_{i}+c_{m}\leq \hat{r}^{*}-c_{m}$ given that $\sqrt{\epsilon_{m}}<\dfrac{\Delta_{i}}{2}$ for some arm $a_{i}\in s_{i}$. 
-%So, we need to bound the probability,
-%	\begin{align*}
-%	\mathbb{P}\lbrace\hat{r}^{*}\leq r^{*} - c_{m_{i}}\rbrace\leq U_{m}\text{, where $U_{m}$ is an  arbitrary upper bound.}
-%	\end{align*}
- 
-%, for a fixed $n_{s_{i}}$.
-%\mathbb{P}\lbrace\hat{r}^{*}\leq r^{*} - c_{m}\rbrace\leq
- 
-%Here, we guarantee that only if $\hat{r}^{*}\leq r^{*} - c_{m}\sqrt{\dfrac{w\ell_{m}}{\epsilon_{m}}}$ or $\hat{r}_{i}\geq r_{i} + c_{m}\sqrt{\dfrac{w\ell_{m}}{\epsilon_{m}}}$ then only arm will not be deleted. This is a more aggressive arm elimination condition than simply looking at $\hat{r}^{*}\leq r^{*} - c_{m}$ or $\hat{r}_{i}\geq r_{i} + c_{m}$ because we are exploring much carefully by dividing the larger problem into sub-problems.
-% 
-Applying Chernoff-Hoeffding bound and considering independence of complementary of the two events in \ref{eq:appA:armelim-casea},
+	Hence, in the $m_i$-th round arm $i$ gets eliminated. Applying Chernoff-Hoeffding bound and considering independence of complementary of the two events in \ref{eq:appA:armelim-casea},
   \begin{align*}
 \mathbb{P}\lbrace\hat{r}_{i}&\geq r_{i} + c_{i}\rbrace\leq \exp(-2c_{i}^{2}n_{i})
 \leq \exp(-2 * \dfrac{\rho_{a}\log (\psi T\epsilon_{m_{i}}^{2})}{2 n_{i}} *n_{i})
@@ -145,7 +114,7 @@ Summing up over all arms in $A^{'}$ and bounding the regret for each arm $i\in A
 So, the total contribution of ${i}$  till round $m_{i}$ is given by, 
 \begin{align*}
 &\Delta_{i}\bigg\lceil\dfrac{2\log{(\psi T\epsilon_{m_{i}}^{2})}}{\epsilon_{m_{i}}}\bigg\rceil
-\leq\Delta_{i}\bigg\lceil\dfrac{2\log{(\psi T(\dfrac{\Delta_{i}}{2\sqrt{\rho_{a}})^{4})}}}{(\dfrac{\Delta_{i}}{2\sqrt{\rho_{a}}})^{2}}\bigg\rceil \text{, since } \sqrt{\rho_{a}\epsilon_{m_{i}}} < \dfrac{\Delta_{i}}{2}\\
+\leq\Delta_{i}\bigg\lceil\dfrac{2\log{(\psi T(\dfrac{\Delta_{i}}{2\sqrt{\rho_{a}}})^{4})}}{(\dfrac{\Delta_{i}}{2\sqrt{\rho_{a}}})^{2}}\bigg\rceil \text{, since } \sqrt{\rho_{a}\epsilon_{m_{i}}} < \dfrac{\Delta_{i}}{2}\\
 &\leq\Delta_{i}\bigg(1+\dfrac{32\rho_{a}\log{(\psi T(\dfrac{\Delta_{i}}{2\sqrt{\rho_{a}}})^{4})}}{\Delta_{i}^{2}}\bigg)
 \leq\Delta_{i}\bigg(1+\dfrac{32\rho_{a}\log{(\psi T\dfrac{\Delta_{i}^{4}}{16\rho_{a}^{2}})}}{\Delta_{i}^{2}}\bigg)
 \end{align*} 
