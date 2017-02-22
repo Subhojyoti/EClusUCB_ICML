@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.9.30)  22 FEB 2017 16:49
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.9.30)  22 FEB 2017 17:01
 entering extended mode
  %&-line parsing enabled.
 **clustered_ucb.tex
@@ -1449,10 +1449,6 @@ Package xcolor Warning: Incompatible color definition on input line 68.
 Package xcolor Warning: Incompatible color definition on input line 68.
 
 
-Underfull \vbox (badness 5417) has occurred while \output is active []
-
-
-
 Package xcolor Warning: Incompatible color definition on input line 76.
 
 
@@ -1478,9 +1474,6 @@ Package xcolor Warning: Incompatible color definition on input line 84.
 
 
 Package xcolor Warning: Incompatible color definition on input line 84.
-
-
-Package xcolor Warning: Incompatible color definition on input line 86.
 
 
 Package xcolor Warning: Incompatible color definition on input line 86.
@@ -1526,22 +1519,22 @@ Underfull \hbox (badness 5133) in paragraph at lines 81--87
 
 Package xcolor Warning: Incompatible color definition on input line 114.
 
+
+Package xcolor Warning: Incompatible color definition on input line 145.
+
+
+Package xcolor Warning: Incompatible color definition on input line 145.
+
+
+Package xcolor Warning: Incompatible color definition on input line 146.
+
+
+Package xcolor Warning: Incompatible color definition on input line 146.
+
+
+Package xcolor Warning: Incompatible color definition on input line 146.
+
 [4]
-
-Package xcolor Warning: Incompatible color definition on input line 145.
-
-
-Package xcolor Warning: Incompatible color definition on input line 145.
-
-
-Package xcolor Warning: Incompatible color definition on input line 146.
-
-
-Package xcolor Warning: Incompatible color definition on input line 146.
-
-
-Package xcolor Warning: Incompatible color definition on input line 146.
-
 
 Package xcolor Warning: Incompatible color definition on input line 148.
 
@@ -2171,21 +2164,17 @@ Package xcolor Warning: Incompatible color definition on input line 1076.
 
 Package xcolor Warning: Incompatible color definition on input line 1076.
 
-[20]) [21] (./clustered_ucb.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+[20]) [21] (./clustered_ucb.aux) ) 
 Here is how much of TeX's memory you used:
  22815 strings out of 493848
  464426 string characters out of 1152823
- 674754 words of memory out of 3000000
+ 672650 words of memory out of 3000000
  25387 multiletter control sequences out of 15000+50000
  40659 words of font info for 94 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  63i,29n,75p,2102b,1765s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{algorithm.2} has been referenced but does not exi
-st, replaced by a fixed one
+pdfTeX warning (dest): name{algorithm.2} has 
+been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{algorithm.1} has been referenced but does not exist
 , replaced by a fixed one
@@ -2211,9 +2200,9 @@ sfonts/symbols/msbm10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
 exlive/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-texlive/fonts/type1/
 urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmri8a.pf
 b></usr/share/texmf-texlive/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on clustered_ucb.pdf (21 pages, 464176 bytes).
+Output written on clustered_ucb.pdf (21 pages, 463269 bytes).
 PDF statistics:
- 553 PDF objects out of 1000 (max. 8388607)
+ 549 PDF objects out of 1000 (max. 8388607)
  105 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
