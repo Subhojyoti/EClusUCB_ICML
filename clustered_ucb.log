@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.9.30)  22 FEB 2017 10:51
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.9.30)  22 FEB 2017 11:01
 entering extended mode
  %&-line parsing enabled.
 **clustered_ucb.tex
@@ -1581,6 +1581,9 @@ Package xcolor Warning: Incompatible color definition on input line 150.
 
 Package xcolor Warning: Incompatible color definition on input line 150.
 
+
+Package xcolor Warning: Incompatible color definition on input line 150.
+
 ) (./proofTheorem.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1685,20 +1688,9 @@ PGFPlots: reading {results/NewExpt/Expt1/TS02_comp_subsampled.txt}
 PGFPlots: reading {results/NewExpt/Expt1/OCUCB01_comp_subsampled.txt}
 PGFPlots: reading {results/NewExpt/Expt1/BU01_comp_subsampled.txt}
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
-[]\OT1/ptm/m/n/9 (a) Ex-per-i-ment $\OT1/cmr/m/n/9 1$\OT1/ptm/m/n/9 : $\OT1/cmr
-/m/n/9 20$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
-\OT1/ptm/m/n/9 Bernoulli-distributed arms
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 37--37
-\OT1/ptm/m/n/9 with $\OML/cmm/m/it/9 r[] \OT1/cmr/m/n/9 = 0\OML/cmm/m/it/9 :\OT
-1/cmr/m/n/9 07$ \OT1/ptm/m/n/9 and
+Underfull \hbox (badness 6808) in paragraph at lines 37--37
+[]\OT1/ptm/m/n/9 (a) Expt-$\OT1/cmr/m/n/9 1$\OT1/ptm/m/n/9 : $\OT1/cmr/m/n/9 20
+$ \OT1/ptm/m/n/9 Bernoulli-
  []
 
 PGFPlots: reading {results/NewExpt/Expt2_2/UCB01_comp_subsampled.txt}
@@ -1708,25 +1700,25 @@ PGFPlots: reading {results/NewExpt/Expt2_2/OCUCB01_comp_subsampled.txt}
 PGFPlots: reading {results/NewExpt/Expt2_2/MedElim_comp_subsampled.txt}
 PGFPlots: reading {results/NewExpt/Expt2_2/UCBR01_comp_subsampled.txt}
 
-Underfull \hbox (badness 7030) in paragraph at lines 68--68
-[]\OT1/ptm/m/n/9 (b) Ex-per-i-ment $\OT1/cmr/m/n/9 2$\OT1/ptm/m/n/9 : $\OT1/cmr
-/m/n/9 100$
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
+\OT1/ptm/m/n/9 distributed arms with
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 68--68
-\OT1/ptm/m/n/9 Gaussian-distributed arms
+\OML/cmm/m/it/9 r[] \OT1/cmr/m/n/9 = 0\OML/cmm/m/it/9 :\OT1/cmr/m/n/9 1$\OT1/pt
+m/m/n/9 ,
  []
 
 
-Underfull \hbox (badness 2846) in paragraph at lines 68--68
-\OT1/ptm/m/n/9 with $\OML/cmm/m/it/9 r[] \OT1/cmr/m/n/9 = 0\OML/cmm/m/it/9 :\OT
-1/cmr/m/n/9 1$\OT1/ptm/m/n/9 ,
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
+\OML/cmm/m/it/9 r[] \OT1/cmr/m/n/9 = 0\OML/cmm/m/it/9 :\OT1/cmr/m/n/9 6$\OT1/pt
+m/m/n/9 ,
  []
 
 
-Underfull \hbox (badness 3724) in paragraph at lines 68--68
-\OML/cmm/m/it/9 r[] \OT1/cmr/m/n/9 = 0\OML/cmm/m/it/9 :\OT1/cmr/m/n/9 6$ \OT1/p
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
+\OML/cmm/m/it/9 r[] \OT1/cmr/m/n/9 = 0\OML/cmm/m/it/9 :\OT1/cmr/m/n/9 9$ \OT1/p
 tm/m/n/9 and
  []
 
@@ -1839,9 +1831,20 @@ PGFPlots: reading {results/NewExpt/Expt3_1/plotFinalMOSS20_100.txt}
 PGFPlots: reading {results/NewExpt/Expt3_1/plotFinalEclUCB20_100.txt}
 PGFPlots: reading {results/NewExpt/Expt3_1/plotFinalOCUCB20_100.txt}
 
-Underfull \hbox (badness 3138) in paragraph at lines 113--113
-[]\OT1/ptm/m/n/9 (a) Ex-per-i-ment $\OT1/cmr/m/n/9 3$\OT1/ptm/m/n/9 : Ex-per-i-
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
+[]\OT1/ptm/m/n/9 (a) Expt-$\OT1/cmr/m/n/9 3$\OT1/ptm/m/n/9 : $\OT1/cmr/m/n/9 20
+$ \OT1/ptm/m/n/9 to $\OT1/cmr/m/n/9 100$
+ []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
+\OT1/ptm/m/n/9 Bernoulli-distributed arms
+ []
+
+
+Underfull \hbox (badness 4467) in paragraph at lines 113--113
+\OT1/ptm/m/n/9 with $\OML/cmm/m/it/9 r[] \OT1/cmr/m/n/9 = 0\OML/cmm/m/it/9 :\OT
+1/cmr/m/n/9 05$ \OT1/ptm/m/n/9 and
  []
 
 PGFPlots: reading {results/NewExpt/Expt4/plotFinalAclUCB012.txt}
@@ -2218,7 +2221,7 @@ Package xcolor Warning: Incompatible color definition on input line 1110.
 Here is how much of TeX's memory you used:
  22811 strings out of 493848
  464400 string characters out of 1152823
- 671830 words of memory out of 3000000
+ 671840 words of memory out of 3000000
  25383 multiletter control sequences out of 15000+50000
  40659 words of font info for 94 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
@@ -2254,9 +2257,9 @@ utmb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmbi8a.pfb></usr/sh
 are/texmf-texlive/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/fo
 nts/type1/urw/times/utmri8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/zapfd
 ing/uzdr.pfb>
-Output written on clustered_ucb.pdf (21 pages, 494497 bytes).
+Output written on clustered_ucb.pdf (21 pages, 495036 bytes).
 PDF statistics:
- 571 PDF objects out of 1000 (max. 8388607)
+ 569 PDF objects out of 1000 (max. 8388607)
  105 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
