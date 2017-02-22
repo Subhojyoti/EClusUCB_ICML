@@ -30,7 +30,7 @@ where $D(p_{i}||p^{*})$ is the Kullback-Leibler divergence between the reward de
 has a gap-dependent regret bound of $O\big(\frac{K\log T\Delta^{2}}{\Delta}\big)$, which is better than that of UCB1. On the other hand, the worst case regret of UCB-Improved is $O\big(\sqrt{TK\log K}\big)$. Recently in \citet{lattimore2015optimally}, the algorithm OCUCB achieves order-optimal gap-dependent regret bound of $O\left(\sum_{i=2}^{K}\frac{\log\left(T/H_i\right)}{\Delta_i}\right)$ where $H_i=\sum_{j=1}^{K}\min\lbrace \frac{1}{\Delta_i^2},\frac{1}{\Delta_j^2}\rbrace$ and gap-independent regret bound of $O\big( \sqrt{KT}\big)$.
 
 Clustering has been extensively studied in the area of contextual MAB. In contextual MAB, there are side-information or features attached to each arm (see  \citet{auer2002using,langford2008epoch,li2010contextual,beygelzimer2011contextual, slivkins2014contextual}).  In contextual MAB clustering is done over the features representing the arms to capture the complexity of the problem better when a large-number of arms are involved  \cite{bui2012clustered,cesa2013gang,gentile2014online}. Please note that we do not cluster over the context rather we cluster the arms into groups.
-
+\vspace*{-0.7em}
 \subsection{Our Contribution}
 We propose a variant of UCB algorithm, henceforth referred to as EClusUCB, that incorporates clustering and an improved exploration scheme. EClusUCB starts with partitioning of arms into small clusters, each having same number of arms. The clustering is done at the start with a prespecified number of clusters. 
 Each timestep of EClusUCB involves both (individual) arm elimination as well as cluster elimination. 
