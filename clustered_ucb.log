@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.9.30)  22 FEB 2017 11:31
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.9.30)  22 FEB 2017 11:38
 entering extended mode
  %&-line parsing enabled.
 **clustered_ucb.tex
@@ -1585,14 +1585,15 @@ Package xcolor Warning: Incompatible color definition on input line 150.
 Package xcolor Warning: Incompatible color definition on input line 150.
 
 ) (./proofTheorem.tex
+
+Package xcolor Warning: Incompatible color definition on input line 69.
+
+
+Package xcolor Warning: Incompatible color definition on input line 69.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-Package xcolor Warning: Incompatible color definition on input line 69.
-
-
-Package xcolor Warning: Incompatible color definition on input line 69.
 
 
 Package xcolor Warning: Incompatible color definition on input line 85.
@@ -2219,10 +2220,10 @@ Package xcolor Warning: Incompatible color definition on input line 1110.
 
 ) [19] [20] [21] (./clustered_ucb.aux) ) 
 Here is how much of TeX's memory you used:
- 22811 strings out of 493848
- 464400 string characters out of 1152823
- 671840 words of memory out of 3000000
- 25383 multiletter control sequences out of 15000+50000
+ 22815 strings out of 493848
+ 464426 string characters out of 1152823
+ 671876 words of memory out of 3000000
+ 25387 multiletter control sequences out of 15000+50000
  40659 words of font info for 94 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  63i,29n,75p,2102b,1765s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2257,7 +2258,7 @@ utmb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmbi8a.pfb></usr/sh
 are/texmf-texlive/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/fo
 nts/type1/urw/times/utmri8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/zapfd
 ing/uzdr.pfb>
-Output written on clustered_ucb.pdf (21 pages, 494909 bytes).
+Output written on clustered_ucb.pdf (21 pages, 494982 bytes).
 PDF statistics:
  569 PDF objects out of 1000 (max. 8388607)
  105 named destinations out of 1000 (max. 500000)

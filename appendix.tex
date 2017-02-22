@@ -968,7 +968,7 @@ EClusUCB      &$O\left(  \log_{2}\left( \dfrac{T}{K}\right) K^{\frac{5}{2}} \gam
 %\State Create a partition $S_0$ of the arms into $K$ singleton clusters for each of the $K$ arms.
 \State Pull each arm once
 \For{$t=K+1,..,T$}	
-\State Pull arm $i\in B_m$ such that arg$\max_{j\in B_{m}}\bigg\lbrace \hat{r}_{j} + \sqrt{\dfrac{\rho_{s}\log{(\psi T\epsilon_{m}^{2})}}{2 z_{j}}} \bigg\rbrace$, where $z_j$ is the number of times arm $j$ has been pulled
+\State Pull arm $i\in\argmax_{j\in B_{m}}\bigg\lbrace \hat{r}_{j} + \sqrt{\dfrac{\rho_{s}\log{(\psi T\epsilon_{m}^{2})}}{2 z_{j}}} \bigg\rbrace$, where $z_j$ is the number of times arm $j$ has been pulled
 \State $t:=t+1$
 \State Call CreateClusters()
 \ArmElim
