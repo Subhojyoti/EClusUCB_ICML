@@ -990,7 +990,7 @@ EClusUCB      &$O\left(  \log_{2}\left( \dfrac{T}{K}\right) K^{\frac{5}{2}} \gam
 \If{$t\geq N_{m}$ and $m\leq M$}
 %\ResParam
 \State $\epsilon_{m+1}:=\dfrac{\epsilon_{m}}{2}$\vspace{0.5ex}
-\State $\ell_{m+1}=2\ell_{m}$
+\State $\ell_{m+1}:=2\ell_{m}$
 \State $B_{m+1}:=B_{m}$
 \State $n_{m+1}:=\bigg\lceil\dfrac{2\log{(\psi T\epsilon_{m+1}^{2})}}{\epsilon_{m+1}}\bigg\rceil$
 \State $N_{m+1}:=t+|B_{m+1}| n_{m+1}$
