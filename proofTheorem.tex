@@ -69,7 +69,7 @@ In the above, we have used the fact that $n_{m_i} \leq n_{m_*}$ (as $*\in B_{m_i
 
 From the foregoing, we have to bound the events complementary to that in \eqref{eq:armelim-casea1} for an arm $i$ to not get eliminated. Considering Chernoff-Hoeffding bound this is done as follows:
   \begin{align*}
-&\mathbb{P}\left(\hat{r}_{i}\geq r_{i} + c_{i}\right)&\leq \exp(-2c_{i}^{2}n_{i})\\
+&\mathbb{P}\left(\hat{r}_{i}\geq r_{i} + c_{i}\right)\leq \exp(-2c_{i}^{2}n_{i})\\
 &\leq \exp(-2 * \frac{\rho_{a}\log (\psi T\epsilon_{m_{i}}^{2})}{2 n_{i}} *n_{i})
 \leq \frac{1}{(\psi T\epsilon_{m_{i}}^{2})^{\rho_{a}}}   
   \end{align*}
