@@ -62,7 +62,7 @@
 \end{algorithm}
 %\vspace*{-0.42em}
 \textbf{Notations:} We denote the set of arms by $A$, with the individual arms labeled $i, i=1,\ldots,K$. We denote an arbitrary round of EClusUCB by $m$. We denote an arbitrary cluster by $s_{k}$, the subset of arms within the cluster $s_k$ by  $A_{s_{k}}$ and the set of clusters by $S$ with $|S|=p\leq K$. Here $p$ is a pre-specified limit for the number of clusters.
-For simplicity, we assume that the optimal arm is unique and denote it by ${*}$, with $s^{*}$ denoting the corresponding cluster. The best arm in a cluster $s_{k}$ is denoted by $a_{max_{s_{k}}}$.  
+For simplicity, we assume that the optimal arm is unique and denote it by ${*}$, with $s^{*}$ denoting the corresponding cluster. The true best arm in a cluster $s_{k}$ is denoted by $a_{max_{s_{k}}}$.  
 We denote the sample mean of the rewards seen so far for arm $i$ by $\hat{r_i}$ and for the true best arm within a cluster $s_k$ by $\hat{r}_{a_{\max_{s_{k}}}}$. $z_i$ is the number of times an arm $i$ has been pulled. We assume that the rewards of all arms are bounded in $[0,1]$.
 
 \textbf{The algorithm.} As mentioned in a recent work \cite{liu2016modification}, UCB-Improved has two shortcomings: 	\\

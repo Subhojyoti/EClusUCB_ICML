@@ -828,7 +828,7 @@ While looking at the error terms in Table~\ref{App:E:table:3}, we see that using
 
 For every $0<\eta <1$ and $\gamma > 1$, there exists $\tau$ such that for all $T>\tau$ the simple regret of EClusUCB is upper bounded by,
 \begin{align*}
-SR_{EClusUCB} \leq 4\log_{2}\dfrac{14 T}{K}\gamma \sum_{i=1}^{K} \Delta_{i} \exp(-\dfrac{c_{0}\sqrt{e}}{4}) \bigg\lbrace K^{\frac{3}{2} +2\rho_{a}} \bigg(\dfrac{\log (\psi T )}{T^{\frac{3}{2}}(\psi T^2)^{\rho_{a}}}\bigg) + K^{\frac{3}{2} +2\rho_{s}} \bigg(\dfrac{\log (\psi T )}{T^{\frac{3}{2}}(\psi T^2)^{\rho_{s}}}\bigg) \bigg\rbrace
+SR_{EClusUCB} \leq 4\log_{2}\left(\dfrac{14 T}{K}\right)\gamma \sum_{i=1}^{K} \Delta_{i} \exp(-\dfrac{c_{0}\sqrt{e}}{4}) \bigg\lbrace K^{\frac{3}{2} +2\rho_{a}} \bigg(\dfrac{\log (\psi T )}{T^{\frac{3}{2}}(\psi T^2)^{\rho_{a}}}\bigg) + K^{\frac{3}{2} +2\rho_{s}} \bigg(\dfrac{\log (\psi T )}{T^{\frac{3}{2}}(\psi T^2)^{\rho_{s}}}\bigg) \bigg\rbrace
 \end{align*}
 
 with probability at least $1-\eta$, where $c_{0}>0$ is a constant.
@@ -873,7 +873,7 @@ P_{i} = \sum_{m=0}^{M} \delta_{m}.Q_{m} &\leq \sum_{m=0}^{M} \bigg\lbrace\bigg(\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 & \leq M.\bigg\lbrace\bigg(\dfrac{4K^{\frac{3}{2} +2\rho_a}\log (\psi T )}{T^{\frac{3}{2}}(\psi T^2)^{\rho_{a}}}\bigg) + \bigg(\dfrac{4K^{\frac{3}{2} +2\rho_{s}}\log (\psi T )}{T^{\frac{3}{2}}(\psi T^2)^{\rho_{s}}}\bigg)\bigg\rbrace 2\gamma \exp(-\dfrac{c_{0}\sqrt{T}}{2^{M}.4})\\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-& \leq \log_{2}\dfrac{14T}{K}\gamma \exp(\dfrac{c_{0}\sqrt{e}}{4})\bigg\lbrace\bigg(\dfrac{4K^{\frac{3}{2} +2\rho_{a}}\log (\psi T )}{T^{\frac{3}{2}}(\psi T^2)^{\rho_{a}}}\bigg) + \bigg(\dfrac{K^{\frac{3}{2} +2\rho_{s}}\log (\psi T )}{T^{\frac{3}{2}}(\psi T^2)^{\rho_{s}}}\bigg)\bigg\rbrace \text{, for $M=\big \lfloor \dfrac{1}{2}\log_{2} \dfrac{14 T}{K}\big\rfloor$}
+& \leq \log_{2}\dfrac{14T}{K}\gamma \exp(-\dfrac{c_{0}\sqrt{e}}{4})\bigg\lbrace\bigg(\dfrac{4K^{\frac{3}{2} +2\rho_{a}}\log (\psi T )}{T^{\frac{3}{2}}(\psi T^2)^{\rho_{a}}}\bigg) + \bigg(\dfrac{K^{\frac{3}{2} +2\rho_{s}}\log (\psi T )}{T^{\frac{3}{2}}(\psi T^2)^{\rho_{s}}}\bigg)\bigg\rbrace \text{, for $M=\big \lfloor \dfrac{1}{2}\log_{2} \dfrac{14 T}{K}\big\rfloor$}
 \end{align*}
 
 Hence, the simple regret of EClusUCB is upper bounded by,
@@ -903,7 +903,7 @@ SR_{EClusUCB} &\leq 8 \log_{2}\dfrac{7T}{K} K^{\frac{5}{2}} \gamma \sum_{i=1}^{K
 & \leq 8 \log_{2}\dfrac{14 T}{K} K^{\frac{5}{2}} \gamma  \sum_{i=1}^{K} \Delta_{i} \exp(-\dfrac{c_{0}\sqrt{e}}{4}) \bigg(\dfrac{2 \sqrt{14\log (K)} \log (\dfrac{T}{\sqrt{14\log (K)}} )}{T^{3}}\bigg)
 \end{align*} 
 
-Thus, we see that while the simple regret of CCB decreases at the rate of $O\left( \dfrac{(\log T)^2}{T^4} \right)$, the simple regret of EClusUCB decreases at the rate of $O\left( \dfrac{\sqrt{\log K}(\log T)^2}{T^3} \right)$. A table for the simple regret of CCB and EClusUCB is given in Table \ref{tab:regret-bds1}.
+Thus, we see that the simple regret of EClusUCB decreases at the rate of $O\left( \dfrac{\sqrt{\log K}(\log T)^2}{T^3} \right)$, while the simple regret of CCB decreases at the rate of $O\left( \dfrac{(\log T)^2}{T^4} \right)$. A table comparing the simple regret of CCB and EClusUCB is given in Table \ref{tab:regret-bds1}.
 
 \end{proof}
 
