@@ -33,15 +33,15 @@
 \ArmElim
 \State For each cluster $s_k \in S_{m}$, delete arm ${i}\in s_{k}$ from $B_{m}$ if
 \begin{align*}
-\hat{r}_{i} + \sqrt{\frac{\rho_{a}\log{(\psi T\epsilon_{m}^{2})}}{2 z_{i}}}  < \max_{{j}\in s_{k}}\bigg\lbrace\hat{r}_{j} -\sqrt{\frac{\rho_{a}\log{(\psi T\epsilon_{m}^{2})}}{2 z_{j}}} \bigg\rbrace
+\hat{r}_{i} + \sqrt{\frac{\rho_{a}\log{(\psi T\epsilon_{m}^{2})}}{2 n_{m}}}  < \max_{{j}\in s_{k}}\bigg\lbrace\hat{r}_{j} -\sqrt{\frac{\rho_{a}\log{(\psi T\epsilon_{m}^{2})}}{2 n_{m}}} \bigg\rbrace
 \end{align*}
 % where $\rho_{a}=\frac{1}{w_{m}}$ and remove all such arms from $B_{m}$.
 \EndArmElim
 \ClusElim
 \State Delete cluster $s_{k}\in S_{m}$ and remove all arms $i\in s_{k}$ from $B_{m}$ if 
 \begin{align*}
- \max_{{i}\in s_{k}}\left\lbrace\hat{r}_{i} + \sqrt{\frac{\rho_{s}\log{(\psi T\epsilon_{m}^{2})}}{2 z_{i}}}\right\rbrace \\
- < \max_{{j}\in B_{m}} \left\lbrace\hat{r}_{j} - \sqrt{\frac{\rho_{s} \log{(\psi T\epsilon_{m}^{2})}}{2 z_{j}}}\right\rbrace.
+ \max_{{i}\in s_{k}}\left\lbrace\hat{r}_{i} + \sqrt{\frac{\rho_{s}\log{(\psi T\epsilon_{m}^{2})}}{2 n_{m}}}\right\rbrace \\
+ < \max_{{j}\in B_{m}} \left\lbrace\hat{r}_{j} - \sqrt{\frac{\rho_{s} \log{(\psi T\epsilon_{m}^{2})}}{2 n_{m}}}\right\rbrace.
 \end{align*}
 %  and remove all such arms in the cluster $s_{k}$ from $B_{m}$ to obtain $B_{m+1}$.
 \EndClusElim

@@ -52,27 +52,28 @@ Let $p=1$ such that all the arms in $A$ belongs to a single cluster. Hence, in E
   
 	Following the steps of Theorem \ref{Result:Theorem:1} Case $a1$, an arbitrary sub-optimal arm ${i}\in A^{'}$ can get eliminated only when the event,
 	\begin{align}
-	\hat{r}_{i}  \le r_{i} + c_{i} \text{ and } \label{eq:appA:armelim-casea}
- 	\hat{r}^{*}\geq  r^{*} - c^{*}
+	\hat{r}_{i}  \le r_{i} + c_{m_i} \text{ and } \label{eq:appA:armelim-casea}
+ 	\hat{r}^{*}\geq  r^{*} - c_{m_i}
 	\end{align}
 	
-	takes place. So to bound the regret we need to bound the probability of the complementary event of these two conditions. Note that  $c_i = \sqrt{\frac{\rho_{a}\log (\psi T\epsilon_{m_{i}}^{2})}{2 z_{i}}}$. Any arm $i$ in the $m_{i}$-th round cannot be pulled more than $n_{m_{i}}$ number of times as it will get eliminated as arm elimination condition is being checked in every timestep. This is because in the $m_i$-th round $z_{i}=n_{m_{i}}=\dfrac{2\log{(\psi T\epsilon_{m_{i}}^{2})}}{\epsilon_{m_{i}}}$. Putting this in $c_{i}$ we get,
-  $c_{i}=\sqrt{\dfrac{\rho_{a}\epsilon_{m_{i}}\log (\psi T\epsilon_{m_{i}}^{2})}{2*2 \log(\psi T\epsilon_{m_{i}}^{2})}}=\dfrac{\sqrt{\rho_{a}\epsilon_{m_{i}}}}{2} \leq  \sqrt{\rho_{a}\epsilon_{m_{i}+1}} < \dfrac{\Delta_{i}}{4} $, as $\rho_{a}\in (0,1]$.
+	takes place. So to bound the regret we need to bound the probability of the complementary event of these two conditions. Note that  $c_{m_{i}} = \sqrt{\frac{\rho_{a}\log (\psi T\epsilon_{m_{i}}^{2})}{2 n_{m_i}}}$. Any arm $i$ in the $m_{i}$-th round cannot be pulled more than $n_{m_{i}}$ number of times as it will get eliminated as arm elimination condition is being checked in every timestep. This is because in the $m_i$-th round $z_{i}=n_{m_{i}}=\dfrac{2\log{(\psi T\epsilon_{m_{i}}^{2})}}{\epsilon_{m_{i}}}$. Putting this in $c_{i}$ we get,
+  $c_{m_i}=\sqrt{\dfrac{\rho_{a}\epsilon_{m_{i}}\log (\psi T\epsilon_{m_{i}}^{2})}{2*2 \log(\psi T\epsilon_{m_{i}}^{2})}}=\dfrac{\sqrt{\rho_{a}\epsilon_{m_{i}}}}{2} \leq  \sqrt{\rho_{a}\epsilon_{m_{i}+1}} < \dfrac{\Delta_{i}}{4} $, as $\rho_{a}\in (0,1]$.
 %\leq\dfrac{\epsilon_{m}\sqrt{\ell_{m}}}{2\sqrt{w\ell_{m}}}\leq \dfrac{\epsilon_{m}}{2\sqrt{w}}$.
 %  But in $\xi_{1}$, $\ell_{m}=2^{m}$.
 %  Hence, $c\leq \dfrac{\epsilon_{m} 2^{m/2}}{4}$.
-  Also in the $m_i$-th round $n_{m_i}\leq n_{m_{*}}$ as $*\in B_{m}$ and so $c^{*}\leq c_{i}$. Again, for ${i} \in A^{'}$, 
+%  Also in the $m_i$-th round $n_{m_i}\leq n_{m_{*}}$ as $*\in B_{m}$ and so $c^{*}\leq c_{i}$. 
+  Again, for ${i} \in A^{'}$, 
   \begin{align*}
-\hat{r}_{i} + c_{i}&\leq r_{i} + 2c_{i} 
+\hat{r}_{i} + c_{m_i}&\leq r_{i} + 2c_{m_i} 
 %&= \hat{r}_{i} + 4c_{m_{i}} - 2c_{m_{i}} \\
- < r_{i} + \Delta_{i} - 2c_{i}
- \leq r^{*} -2c^{*} 
- \leq \hat{r}^{*} - c^{*}
+ < r_{i} + \Delta_{i} - 2c_{m_i}
+ \leq r^{*} -2c_{m_i} 
+ \leq \hat{r}^{*} - c_{m_i}
   \end{align*}
 
 	Hence, in the $m_i$-th round arm $i$ gets eliminated. Applying Chernoff-Hoeffding bound and considering independence of complementary of the two events in \ref{eq:appA:armelim-casea},
   \begin{align*}
-\mathbb{P}\lbrace\hat{r}_{i}&\geq r_{i} + c_{i}\rbrace\leq \exp(-2c_{i}^{2}n_{m_{i}})
+\mathbb{P}\lbrace\hat{r}_{i}&\geq r_{i} + c_{m_i}\rbrace\leq \exp(-2c_{m_i}^{2}n_{m_{i}})
 \leq \exp(-2 * \dfrac{\rho_{a}\log (\psi T\epsilon_{m_{i}}^{2})}{2 n_{m_{i}}} *n_{m_{i}})
 \leq \dfrac{1}{(\psi T\epsilon_{m_{i}}^{2})^{\rho_{a}}}   
   \end{align*}
@@ -80,7 +81,7 @@ Let $p=1$ such that all the arms in $A$ belongs to a single cluster. Hence, in E
 %$\leq \bigg(\dfrac{1}{4\psi T\epsilon_{m}^{2}}\bigg)^{D}$, as $\ell_{m}-1\leq D$
 % \hspace*{2em}
  
-Similarly, $\mathbb{P}\lbrace\hat{r}^{*}\leq r^{*} - c^{*}\rbrace\leq \dfrac{1}{(\psi  T\epsilon_{m_{i}}^{2})^{\rho_{a}}}$. Summing the two up, the probability that a sub-optimal arm ${i}$ is not eliminated on or before $m_{i}$-th round is  $\bigg(\dfrac{2}{(\psi T\epsilon_{m_{i}}^{2})^{\rho_{a}}}\bigg)$. 
+Similarly, $\mathbb{P}\lbrace\hat{r}^{*}\leq r^{*} - c_{m_i}\rbrace\leq \dfrac{1}{(\psi  T\epsilon_{m_{i}}^{2})^{\rho_{a}}}$. Summing the two up, the probability that a sub-optimal arm ${i}$ is not eliminated on or before $m_{i}$-th round is  $\bigg(\dfrac{2}{(\psi T\epsilon_{m_{i}}^{2})^{\rho_{a}}}\bigg)$. 
  
 Summing up over all arms in $A^{'}$ and bounding the regret for each arm $i\in A^{'}$ trivially by $T\Delta_{i}$, we obtain
    \begin{align*}
@@ -940,15 +941,15 @@ EClusUCB      &$O\left(  \log_{2}\left( \dfrac{T}{K}\right) K^{\frac{5}{2}} \gam
 \ArmElim
 \State For each cluster $s_k \in S_{m}$, delete arm ${i}\in s_{k}$ from $B_{m}$ if
 \begin{align*}
-\hat{r}_{i} + \sqrt{\dfrac{\rho_{a}\log{(\psi T\epsilon_{m}^{2})}}{2 z_{i}}}  < \max_{{j}\in s_{k}}\bigg\lbrace\hat{r}_{j} -\sqrt{\dfrac{\rho_{a}\log{(\psi T\epsilon_{m}^{2})}}{2 z_{j}}} \bigg\rbrace
+\hat{r}_{i} + \sqrt{\dfrac{\rho_{a}\log{(\psi T\epsilon_{m}^{2})}}{2 n_{m}}}  < \max_{{j}\in s_{k}}\bigg\lbrace\hat{r}_{j} -\sqrt{\dfrac{\rho_{a}\log{(\psi T\epsilon_{m}^{2})}}{2 n_{m}}} \bigg\rbrace
 \end{align*}
 % where $\rho_{a}=\dfrac{1}{w_{m}}$ and remove all such arms from $B_{m}$.
 \EndArmElim
 \ClusElim
 \State Delete cluster $s_{k}\in S_{m}$ and remove all arms $i\in s_{k}$ from $B_{m}$ if 
 \begin{align*}
- \max_{{i}\in s_{k}}\bigg\lbrace\hat{r}_{i} + \sqrt{\dfrac{\rho_{s}\log{(\psi T\epsilon_{m}^{2})}}{2 z_{i}}}\bigg\rbrace 
- < \max_{{j}\in B_{m}} \bigg\lbrace\hat{r}_{j} - \sqrt{\dfrac{\rho_{s} \log{(\psi T\epsilon_{m}^{2})}}{2 z_{j}}}\bigg\rbrace.
+ \max_{{i}\in s_{k}}\bigg\lbrace\hat{r}_{i} + \sqrt{\dfrac{\rho_{s}\log{(\psi T\epsilon_{m}^{2})}}{2 n_{m}}}\bigg\rbrace 
+ < \max_{{j}\in B_{m}} \bigg\lbrace\hat{r}_{j} - \sqrt{\dfrac{\rho_{s} \log{(\psi T\epsilon_{m}^{2})}}{2 n_{m}}}\bigg\rbrace.
 \end{align*}
 %  and remove all such arms in the cluster $s_{k}$ from $B_{m}$ to obtain $B_{m+1}$.
 \EndClusElim
