@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.18)  22 FEB 2017 20:17
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.18)  22 FEB 2017 21:14
 entering extended mode
 **clustered_ucb.tex
 (C:\Users\Subhojyoti\Desktop\github\EClusUCB_ICML\clustered_ucb.tex
@@ -1780,7 +1780,7 @@ Package xcolor Warning: Incompatible color definition on input line 325.
 
 ) (C:\Users\Subhojyoti\Desktop\github\EClusUCB_ICML\expts.tex
 PGFPlots: reading {results/NewExpt/Expt1/UCBV01_comp_subsampled.txt}
-PGFPlots: reading {results/NewExpt/Expt1/EclUCB01_1_comp_subsampled.txt}
+PGFPlots: reading {results/NewExpt/Expt1/NEclUCB01_comp_subsampled.txt}
 PGFPlots: reading {results/NewExpt/Expt1/KLUCB01_comp_subsampled.txt}
 PGFPlots: reading {results/NewExpt/Expt1/MOSS01_comp_subsampled.txt}
 PGFPlots: reading {results/NewExpt/Expt1/DMED01_comp_subsampled.txt}
@@ -1789,7 +1789,7 @@ PGFPlots: reading {results/NewExpt/Expt1/TS02_comp_subsampled.txt}
 PGFPlots: reading {results/NewExpt/Expt1/OCUCB01_comp_subsampled.txt}
 PGFPlots: reading {results/NewExpt/Expt1/BU01_comp_subsampled.txt}
 
-Underfull \hbox (badness 6808) in paragraph at lines 38--38
+Underfull \hbox (badness 6808) in paragraph at lines 39--39
 []\OT1/ptm/m/n/9 (a) Expt-$\OT1/cmr/m/n/9 1$\OT1/ptm/m/n/9 : $\OT1/cmr/m/n/9 20
 $ \OT1/ptm/m/n/9 Bernoulli-
  []
@@ -1801,115 +1801,115 @@ PGFPlots: reading {results/NewExpt/Expt2_2/OCUCB01_comp_subsampled.txt}
 PGFPlots: reading {results/NewExpt/Expt2_2/MedElim_comp_subsampled.txt}
 PGFPlots: reading {results/NewExpt/Expt2_2/UCBR01_comp_subsampled.txt}
 
-Overfull \hbox (4.18295pt too wide) in paragraph at lines 3--72
+Overfull \hbox (4.18295pt too wide) in paragraph at lines 3--73
  [][] 
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 77.
+Package xcolor Warning: Incompatible color definition on input line 78.
 
 
-Package xcolor Warning: Incompatible color definition on input line 77.
+Package xcolor Warning: Incompatible color definition on input line 78.
 
 
-Package xcolor Warning: Incompatible color definition on input line 77.
+Package xcolor Warning: Incompatible color definition on input line 78.
 
 
-Package xcolor Warning: Incompatible color definition on input line 77.
+Package xcolor Warning: Incompatible color definition on input line 78.
 
 
-Package xcolor Warning: Incompatible color definition on input line 77.
+Package xcolor Warning: Incompatible color definition on input line 78.
 
 
-Package xcolor Warning: Incompatible color definition on input line 77.
+Package xcolor Warning: Incompatible color definition on input line 78.
 
 
-Package xcolor Warning: Incompatible color definition on input line 77.
+Package xcolor Warning: Incompatible color definition on input line 78.
 
 
-Package xcolor Warning: Incompatible color definition on input line 77.
+Package xcolor Warning: Incompatible color definition on input line 78.
 
 
-Package xcolor Warning: Incompatible color definition on input line 77.
+Package xcolor Warning: Incompatible color definition on input line 78.
 
 
-Package xcolor Warning: Incompatible color definition on input line 77.
+Package xcolor Warning: Incompatible color definition on input line 78.
 
 
-Package xcolor Warning: Incompatible color definition on input line 77.
+Package xcolor Warning: Incompatible color definition on input line 78.
 
 
-Package xcolor Warning: Incompatible color definition on input line 77.
+Package xcolor Warning: Incompatible color definition on input line 78.
 
 
-Package xcolor Warning: Incompatible color definition on input line 77.
+Package xcolor Warning: Incompatible color definition on input line 78.
 
 
-Package xcolor Warning: Incompatible color definition on input line 77.
+Package xcolor Warning: Incompatible color definition on input line 78.
 
 
-Package xcolor Warning: Incompatible color definition on input line 77.
+Package xcolor Warning: Incompatible color definition on input line 78.
 
 
-Package xcolor Warning: Incompatible color definition on input line 77.
+Package xcolor Warning: Incompatible color definition on input line 78.
 
 
-Package xcolor Warning: Incompatible color definition on input line 77.
+Package xcolor Warning: Incompatible color definition on input line 78.
 
 
-Package xcolor Warning: Incompatible color definition on input line 77.
+Package xcolor Warning: Incompatible color definition on input line 78.
 
 
-Package xcolor Warning: Incompatible color definition on input line 77.
+Package xcolor Warning: Incompatible color definition on input line 78.
 
 
-Package xcolor Warning: Incompatible color definition on input line 77.
+Package xcolor Warning: Incompatible color definition on input line 78.
 
 
-Package xcolor Warning: Incompatible color definition on input line 77.
+Package xcolor Warning: Incompatible color definition on input line 78.
 
 
-Package xcolor Warning: Incompatible color definition on input line 77.
+Package xcolor Warning: Incompatible color definition on input line 78.
 
 
-Package xcolor Warning: Incompatible color definition on input line 77.
+Package xcolor Warning: Incompatible color definition on input line 78.
 
 
-Package xcolor Warning: Incompatible color definition on input line 77.
+Package xcolor Warning: Incompatible color definition on input line 78.
 
 
-Underfull \hbox (badness 5637) in paragraph at lines 77--79
+Underfull \hbox (badness 5637) in paragraph at lines 78--80
 \OT1/ptm/m/n/10 UCB1([][]Auer et al.[][], [][]2002a[][]), UCB-Improved([][]Auer
  &
  []
 
 
-Underfull \hbox (badness 4819) in paragraph at lines 77--79
+Underfull \hbox (badness 4819) in paragraph at lines 78--80
 \OT1/ptm/m/n/10 Or-t-ner[][], [][]2010[][]), Me-dian Elim-i-na-tion([][]Even-Da
 r et al.[][],
  []
 
 
-Underfull \hbox (badness 2600) in paragraph at lines 77--79
+Underfull \hbox (badness 2600) in paragraph at lines 78--80
 \OT1/ptm/m/n/10 OCUCB([][]Lattimore[][], [][]2015[][]), Bayes-UCB(BU)([][]Kaufm
 ann
  []
 
 [7]
 
-Package xcolor Warning: Incompatible color definition on input line 83.
+Package xcolor Warning: Incompatible color definition on input line 84.
 
 
-Package xcolor Warning: Incompatible color definition on input line 86.
+Package xcolor Warning: Incompatible color definition on input line 87.
 
 
-Package xcolor Warning: Incompatible color definition on input line 86.
+Package xcolor Warning: Incompatible color definition on input line 87.
 
 PGFPlots: reading {results/NewExpt/Expt3_1/plotFinalMOSS20_100.txt}
 PGFPlots: reading {results/NewExpt/Expt3_1/plotFinalEclUCB20_100.txt}
 PGFPlots: reading {results/NewExpt/Expt3_1/plotFinalOCUCB20_100.txt}
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
 []\OT1/ptm/m/n/9 (a) Expt-$\OT1/cmr/m/n/9 3$\OT1/ptm/m/n/9 : $\OT1/cmr/m/n/9 20
 $ \OT1/ptm/m/n/9 to $\OT1/cmr/m/n/9 100$
  []
@@ -1917,24 +1917,24 @@ $ \OT1/ptm/m/n/9 to $\OT1/cmr/m/n/9 100$
 PGFPlots: reading {results/NewExpt/Expt4/plotFinalAclUCB012.txt}
 PGFPlots: reading {results/NewExpt/Expt4/plotFinalEclUCB012.txt}
 
-Overfull \hbox (6.37428pt too wide) in paragraph at lines 90--148
+Overfull \hbox (6.37428pt too wide) in paragraph at lines 91--149
  [][] 
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 152.
+Package xcolor Warning: Incompatible color definition on input line 153.
 
 
-Package xcolor Warning: Incompatible color definition on input line 152.
+Package xcolor Warning: Incompatible color definition on input line 153.
 
 
-Package xcolor Warning: Incompatible color definition on input line 152.
+Package xcolor Warning: Incompatible color definition on input line 153.
 
 
-Package xcolor Warning: Incompatible color definition on input line 156.
+Package xcolor Warning: Incompatible color definition on input line 157.
 
 
-Package xcolor Warning: Incompatible color definition on input line 156.
+Package xcolor Warning: Incompatible color definition on input line 157.
 
 ) [8] (C:\Users\Subhojyoti\Desktop\github\EClusUCB_ICML\clustered_ucb.bbl
 Underfull \hbox (badness 2302) in paragraph at lines 20--25
@@ -2298,14 +2298,11 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 180.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 180.
 Package rerunfilecheck Info: File `clustered_ucb.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 180.
  ) 
 Here is how much of TeX's memory you used:
  31438 strings out of 493921
- 743522 string characters out of 3144861
+ 743519 string characters out of 3144861
  997326 words of memory out of 3000000
  33988 multiletter control sequences out of 15000+200000
  40659 words of font info for 94 fonts, out of 3000000 for 9000
@@ -2335,7 +2332,7 @@ type1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw
 i8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb><C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on clustered_ucb.pdf (21 pages, 462191 bytes).
+Output written on clustered_ucb.pdf (21 pages, 462193 bytes).
 PDF statistics:
  549 PDF objects out of 1000 (max. 8388607)
  105 named destinations out of 1000 (max. 500000)
