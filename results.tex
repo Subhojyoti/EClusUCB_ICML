@@ -139,8 +139,9 @@ From the above result, we observe that the order of the regret upper bound of EC
 %for $ \sqrt{\log K} \leq p\leq\frac{K}{2}$. So by taking $\rho_{a} < \rho_{s}$ we are able to reduce the error bound and this helps the algorithm to perform better in regimes where the gaps are small by keeping the optimal arm safe with high probability. 
 %
 %\end{proof}
-
+\vspace*{-1.7em}
 \subsection*{Analysis of elimination error}
+\vspace*{-0.4em}
 Let $\widetilde R_T$ denote the contribution  to the expected regret in the case when the optimal arm $*$ gets eliminated during one of the rounds of EClusUCB. This can happen if a sub-optimal arm eliminates $*$ or if a sub-optimal cluster eliminates the cluster $s^*$ that contains $*$ -- these correspond to cases b2 and b3 in the proof of Theorem \ref{Result:Theorem:1} (see Section \ref{sec:proofTheorem}). 
 We shall denote variant of EClusUCB that includes arm elimination condition only as EClusUCB-AE while EClusUCB corresponds to Algorithm \ref{alg:eclusucb}, which uses both arm and cluster elimination conditions. The regret upper bound for EClusUCB-AE is given in Proposition \ref{proofTheorem:Prop:1} in Appendix \ref{App:A}.
 
