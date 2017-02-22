@@ -22,15 +22,15 @@
   		legend style={at={(0.5,1.5)},anchor=north, legend columns=3} ]
       	% UCB
 		\addplot table{results/NewExpt/Expt1/UCBV01_comp_subsampled.txt};
-		\addplot table{results/NewExpt/Expt1/UCB01_comp_subsampled.txt};
+		\addplot table{results/NewExpt/Expt1/EclUCB01_1_comp_subsampled.txt};
 		\addplot table{results/NewExpt/Expt1/KLUCB01_comp_subsampled.txt};
 		\addplot table{results/NewExpt/Expt1/MOSS01_comp_subsampled.txt};
 		\addplot table{results/NewExpt/Expt1/DMED01_comp_subsampled.txt};
-		\addplot table{results/NewExpt/Expt1/EclUCB01_1_comp_subsampled.txt};
+		\addplot table{results/NewExpt/Expt1/UCB01_comp_subsampled.txt};
 		\addplot table{results/NewExpt/Expt1/TS02_comp_subsampled.txt};
 		\addplot table{results/NewExpt/Expt1/OCUCB01_comp_subsampled.txt};
 		\addplot table{results/NewExpt/Expt1/BU01_comp_subsampled.txt};
-      	\legend{UCB-V,UCB1,KL-UCB,MOSS,DMED,EClusUCB,TS,OCUCB,BU}      	
+      	\legend{UCB-V,EClusUCB,KL-UCB,MOSS,DMED,UCB1,TS,OCUCB,BU}      	
       	\end{axis}
       	\end{tikzpicture}
   		\label{fig:1}
@@ -54,14 +54,14 @@
       	% UCB
         \addplot table{results/NewExpt/Expt2_2/UCB01_comp_subsampled.txt};
 		%\addplot table{results/NewExpt/Expt2_2/clUCB01_comp_subsampled.txt};
-		\addplot table{results/NewExpt/Expt2_2/MedElim_comp_subsampled.txt};
+		\addplot table{results/NewExpt/Expt2_2/EclUCB01_comp_subsampled.txt};
 		\addplot table{results/NewExpt/Expt2_2/MOSS01_comp_subsampled.txt};
 		\addplot table{results/NewExpt/Expt2_2/OCUCB01_comp_subsampled.txt};
-		\addplot table{results/NewExpt/Expt2_2/EclUCB01_comp_subsampled.txt};
+		\addplot table{results/NewExpt/Expt2_2/MedElim_comp_subsampled.txt};
 		\addplot table{results/NewExpt/Expt2_2/UCBR01_comp_subsampled.txt};
 		%\addplot table{results/NewExpt/Expt2_2/EclUCB01_p_1_comp_subsampled.txt};
 		%\legend{UCB1,ClusUCB,Med-Elim,MOSS,OCUCB,EClusUCB,UCB-Imp}
-		\legend{UCB1,Med-Elim,MOSS,OCUCB,EClusUCB,UCB-Imp}
+		\legend{UCB1,EClusUCB,MOSS,OCUCB,Med-Elim,UCB-Imp}
       	\end{axis}
       	\end{tikzpicture}
    		\label{fig:2}
