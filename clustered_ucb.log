@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.9.30)  22 FEB 2017 10:37
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.9.30)  22 FEB 2017 10:46
 entering extended mode
  %&-line parsing enabled.
 **clustered_ucb.tex
@@ -1736,110 +1736,110 @@ Overfull \hbox (4.18295pt too wide) in paragraph at lines 3--70
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 74.
+Package xcolor Warning: Incompatible color definition on input line 75.
 
 
-Package xcolor Warning: Incompatible color definition on input line 74.
+Package xcolor Warning: Incompatible color definition on input line 75.
 
 
-Package xcolor Warning: Incompatible color definition on input line 74.
+Package xcolor Warning: Incompatible color definition on input line 75.
 
 
-Package xcolor Warning: Incompatible color definition on input line 74.
+Package xcolor Warning: Incompatible color definition on input line 75.
 
 
-Package xcolor Warning: Incompatible color definition on input line 74.
+Package xcolor Warning: Incompatible color definition on input line 75.
 
 
-Package xcolor Warning: Incompatible color definition on input line 74.
+Package xcolor Warning: Incompatible color definition on input line 75.
 
 
-Package xcolor Warning: Incompatible color definition on input line 74.
+Package xcolor Warning: Incompatible color definition on input line 75.
 
 
-Package xcolor Warning: Incompatible color definition on input line 74.
+Package xcolor Warning: Incompatible color definition on input line 75.
 
 
-Package xcolor Warning: Incompatible color definition on input line 74.
+Package xcolor Warning: Incompatible color definition on input line 75.
 
 
-Package xcolor Warning: Incompatible color definition on input line 74.
+Package xcolor Warning: Incompatible color definition on input line 75.
 
 
-Package xcolor Warning: Incompatible color definition on input line 74.
+Package xcolor Warning: Incompatible color definition on input line 75.
 
 
-Package xcolor Warning: Incompatible color definition on input line 74.
+Package xcolor Warning: Incompatible color definition on input line 75.
 
 
-Package xcolor Warning: Incompatible color definition on input line 74.
+Package xcolor Warning: Incompatible color definition on input line 75.
 
 
-Package xcolor Warning: Incompatible color definition on input line 74.
+Package xcolor Warning: Incompatible color definition on input line 75.
 
 
-Package xcolor Warning: Incompatible color definition on input line 74.
+Package xcolor Warning: Incompatible color definition on input line 75.
 
 
-Package xcolor Warning: Incompatible color definition on input line 74.
+Package xcolor Warning: Incompatible color definition on input line 75.
 
 
-Package xcolor Warning: Incompatible color definition on input line 74.
+Package xcolor Warning: Incompatible color definition on input line 75.
 
 
-Package xcolor Warning: Incompatible color definition on input line 74.
+Package xcolor Warning: Incompatible color definition on input line 75.
 
 
-Package xcolor Warning: Incompatible color definition on input line 74.
+Package xcolor Warning: Incompatible color definition on input line 75.
 
 
-Package xcolor Warning: Incompatible color definition on input line 74.
+Package xcolor Warning: Incompatible color definition on input line 75.
 
 
-Package xcolor Warning: Incompatible color definition on input line 74.
+Package xcolor Warning: Incompatible color definition on input line 75.
 
 
-Package xcolor Warning: Incompatible color definition on input line 74.
+Package xcolor Warning: Incompatible color definition on input line 75.
 
 
-Package xcolor Warning: Incompatible color definition on input line 74.
+Package xcolor Warning: Incompatible color definition on input line 75.
 
 
-Package xcolor Warning: Incompatible color definition on input line 74.
+Package xcolor Warning: Incompatible color definition on input line 75.
 
 
-Underfull \hbox (badness 5637) in paragraph at lines 74--76
+Underfull \hbox (badness 5637) in paragraph at lines 75--77
 \OT1/ptm/m/n/10 UCB1([][]Auer et al.[][], [][]2002a[][]), UCB-Improved([][]Auer
  &
  []
 
 
-Underfull \hbox (badness 4819) in paragraph at lines 74--76
+Underfull \hbox (badness 4819) in paragraph at lines 75--77
 \OT1/ptm/m/n/10 Or-t-ner[][], [][]2010[][]), Me-dian Elim-i-na-tion([][]Even-Da
 r et al.[][],
  []
 
 
-Underfull \hbox (badness 2600) in paragraph at lines 74--76
+Underfull \hbox (badness 2600) in paragraph at lines 75--77
 \OT1/ptm/m/n/10 OCUCB([][]Lattimore[][], [][]2015[][]), Bayes-UCB(BU)([][]Kaufm
 ann
  []
 
 [7]
 
-Package xcolor Warning: Incompatible color definition on input line 80.
+Package xcolor Warning: Incompatible color definition on input line 81.
 
 
-Package xcolor Warning: Incompatible color definition on input line 83.
+Package xcolor Warning: Incompatible color definition on input line 84.
 
 
-Package xcolor Warning: Incompatible color definition on input line 83.
+Package xcolor Warning: Incompatible color definition on input line 84.
 
 PGFPlots: reading {results/NewExpt/Expt3_1/plotFinalMOSS20_100.txt}
 PGFPlots: reading {results/NewExpt/Expt3_1/plotFinalEclUCB20_100.txt}
 PGFPlots: reading {results/NewExpt/Expt3_1/plotFinalOCUCB20_100.txt}
 
-Underfull \hbox (badness 3138) in paragraph at lines 112--112
+Underfull \hbox (badness 3138) in paragraph at lines 113--113
 []\OT1/ptm/m/n/9 (a) Ex-per-i-ment $\OT1/cmr/m/n/9 3$\OT1/ptm/m/n/9 : Ex-per-i-
 
  []
@@ -1847,24 +1847,24 @@ Underfull \hbox (badness 3138) in paragraph at lines 112--112
 PGFPlots: reading {results/NewExpt/Expt4/plotFinalAclUCB012.txt}
 PGFPlots: reading {results/NewExpt/Expt4/plotFinalEclUCB012.txt}
 
-Overfull \hbox (6.37172pt too wide) in paragraph at lines 87--144
+Overfull \hbox (6.37172pt too wide) in paragraph at lines 88--145
  [][] 
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 147.
+Package xcolor Warning: Incompatible color definition on input line 149.
 
 
-Package xcolor Warning: Incompatible color definition on input line 147.
+Package xcolor Warning: Incompatible color definition on input line 149.
 
 
-Package xcolor Warning: Incompatible color definition on input line 147.
+Package xcolor Warning: Incompatible color definition on input line 149.
 
 
-Package xcolor Warning: Incompatible color definition on input line 151.
+Package xcolor Warning: Incompatible color definition on input line 153.
 
 
-Package xcolor Warning: Incompatible color definition on input line 151.
+Package xcolor Warning: Incompatible color definition on input line 153.
 
 ) [8] (./clustered_ucb.bbl
 Underfull \hbox (badness 2302) in paragraph at lines 20--25
@@ -2254,9 +2254,9 @@ utmb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmbi8a.pfb></usr/sh
 are/texmf-texlive/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/fo
 nts/type1/urw/times/utmri8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/zapfd
 ing/uzdr.pfb>
-Output written on clustered_ucb.pdf (21 pages, 493806 bytes).
+Output written on clustered_ucb.pdf (21 pages, 494504 bytes).
 PDF statistics:
- 568 PDF objects out of 1000 (max. 8388607)
+ 571 PDF objects out of 1000 (max. 8388607)
  105 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
