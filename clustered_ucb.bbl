@@ -1,4 +1,4 @@
-\begin{thebibliography}{29}
+\begin{thebibliography}{30}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -120,6 +120,12 @@ Honda, Junya and Takemura, Akimichi.
 \newblock An asymptotically optimal bandit algorithm for bounded support
   models.
 \newblock In \emph{COLT}, pp.\  67--79. Citeseer, 2010.
+
+\bibitem[Kaufmann et~al.(2012)Kaufmann, Capp{\'e}, and
+  Garivier]{kaufmann2012bayesian}
+Kaufmann, Emilie, Capp{\'e}, Olivier, and Garivier, Aur{\'e}lien.
+\newblock On bayesian upper confidence bounds for bandit problems.
+\newblock In \emph{AISTATS}, pp.\  592--600, 2012.
 
 \bibitem[Lai \& Robbins(1985)Lai and Robbins]{lai1985asymptotically}
 Lai, Tze~Leung and Robbins, Herbert.
