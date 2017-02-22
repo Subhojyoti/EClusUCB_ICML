@@ -71,7 +71,7 @@ Similar to case (a) of \citet{auer2010ucb}, observe that when the following two 
 \hat{r}_{i}  \le r_{i} + c_{i} \text{ and } 
  \hat{r}^{*}\geq  r^{*} - c^{*}, \label{eq:armelim-casea1}
 \end{align}
-where  $c_i = \sqrt{\frac{\rho_{a}\log (\psi T\epsilon_{m_{i}}^{2})}{2 z_{i}}}$. Note that any arm $i$ in the $m_{i}$-th round cannot be pulled more than $n_{m_{i}}$ number of times as it will get eliminated. The arm $i$ gets eliminated because 
+where  $c_i = \sqrt{\frac{\rho_{a}\log (\psi T\epsilon_{m_{i}}^{2})}{2 z_{i}}}$. Note that any arm $i$ in the $m_{i}$-th round cannot be pulled more than $n_{m_{i}}$ number of times as it will get eliminated as arm elimination condition is being checked in every timestep. The arm $i$ gets eliminated because 
   \begin{align*}
 \hat{r}_{i} +c_i & \leq r_{i} + 2c_{i} < r_{i} + \Delta_{i} - 2c_{i}\\
  &\leq r^{*} -2c^{*} \leq \hat{r}^{*} - c^{*}  .

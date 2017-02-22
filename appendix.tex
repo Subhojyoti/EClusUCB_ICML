@@ -907,7 +907,7 @@ P_{i} = \sum_{m=0}^{M} \delta_{m}.Q_{m} &\leq \sum_{m=0}^{M} \bigg\lbrace\bigg(\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 & \leq M.\bigg\lbrace\bigg(\dfrac{4K^{\frac{3}{2} +2\rho_a}\log (\psi T )}{T^{\frac{3}{2}}(\psi T^2)^{\rho_{a}}}\bigg) + \bigg(\dfrac{4K^{\frac{3}{2} +2\rho_{s}}\log (\psi T )}{T^{\frac{3}{2}}(\psi T^2)^{\rho_{s}}}\bigg)\bigg\rbrace 2\gamma \exp(-\dfrac{c_{0}\sqrt{T}}{2^{M}.4})\\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-& \leq \log_{2}\dfrac{14T}{K}\gamma \exp(\dfrac{c_{0}\sqrt{e}}{4})\bigg\lbrace\bigg(\dfrac{4K^{\frac{3}{2} +2\rho_{a}}\log (\psi T )}{T^{\frac{3}{2}}(\psi T^2)^{\rho_{a}}}\bigg) + \bigg(\dfrac{K^{\frac{3}{2} +2\rho_{s}}\log (\psi T )}{T^{\frac{3}{2}}(\psi T^2)^{\rho_{s}}}\bigg)\bigg\rbrace \text{, for $M=\big \lfloor \dfrac{1}{2}\log_{2} \dfrac{7T}{K}\big\rfloor$}
+& \leq \log_{2}\dfrac{14T}{K}\gamma \exp(\dfrac{c_{0}\sqrt{e}}{4})\bigg\lbrace\bigg(\dfrac{4K^{\frac{3}{2} +2\rho_{a}}\log (\psi T )}{T^{\frac{3}{2}}(\psi T^2)^{\rho_{a}}}\bigg) + \bigg(\dfrac{K^{\frac{3}{2} +2\rho_{s}}\log (\psi T )}{T^{\frac{3}{2}}(\psi T^2)^{\rho_{s}}}\bigg)\bigg\rbrace \text{, for $M=\big \lfloor \dfrac{1}{2}\log_{2} \dfrac{14 T}{K}\big\rfloor$}
 \end{align*}
 
 Hence, the simple regret of EClusUCB is upper bounded by,
@@ -949,8 +949,8 @@ Thus, we see that while the simple regret of CCB decreases at the rate of $O\lef
 \toprule
 Algorithm  & Upper bound \\
 \midrule
-CCB &$O\left(\log_{2}\big(\dfrac{T}{e}\big) K\gamma\sum_{i=1}^{K}\Delta_{i} \exp(2-\dfrac{c_{0}\sqrt{e}}{4})\dfrac{\log T}{T^4}\right)$ \\\midrule
-EClusUCB      &$O\left(  \log_{2}\dfrac{T}{K} K^{\frac{5}{2}} \gamma  \sum_{i=1}^{K} \Delta_{i} \exp(-\dfrac{c_{0}\sqrt{e}}{4}) \bigg(\dfrac{ \sqrt{\log (K)} \log (\dfrac{T}{\sqrt{\log (K)}} )}{T^{3}}\bigg) \right)$\\\bottomrule
+CCB &$O\left(\log_{2}\left(\dfrac{T}{e}\right) K\gamma\sum_{i=1}^{K}\Delta_{i} \exp(2-\dfrac{c_{0}\sqrt{e}}{4})\dfrac{\log T}{T^4}\right)$ \\\midrule
+EClusUCB      &$O\left(  \log_{2}\left( \dfrac{T}{K}\right) K^{\frac{5}{2}} \gamma  \sum_{i=1}^{K} \Delta_{i} \exp(-\dfrac{c_{0}\sqrt{e}}{4}) \bigg(\dfrac{ \sqrt{\log (K)} \log (\dfrac{T}{\sqrt{\log (K)}} )}{T^{3}}\bigg) \right)$\\\bottomrule
 \end{tabular}
 \end{center}
 \end{table}
@@ -1008,7 +1008,7 @@ EClusUCB      &$O\left(  \log_{2}\dfrac{T}{K} K^{\frac{5}{2}} \gamma  \sum_{i=1}
 
 In Section \ref{sec:eclusucb}, we saw that EClusUCB deals with too much early exploration through optimistic greedy sampling. This reduces the cumulative regret, but still one of the principal disadvantages that EClusUCB suffers from is the lack of knowledge of the number of clusters $p$. One way to handle this is to estimate the number of clusters on the fly. In Algorithm \ref{alg:aclusucb}, named Adaptive Clustered UCB , hence referred to as AClusUCB, we explore this idea. AClusUCB uses \emph{hierarchical clustering} (see \citet{friedman2001elements}) to find the number of clusters present. AClusUCB is similar to EClusUCB with two major differences. The first difference is the call to procedure CreateClusters at every timestep. CreateClusters subroutine first creates a singleton cluster for each of the surviving arms in $B_{m}$ and then clusters those singleton clusters $s_{k}, s_{d}\in S_{m}$ (say) into one, if any arm $i\in s_{k}$ and $j\in s_{d}$ is such that $|\hat{r}_{i}-\hat{r}_{j}|\leq \epsilon_{m}$. We cluster based on $\epsilon_{m}$ because we have no prior knowledge of the gaps and we estimate the gap by $\epsilon_{m}$. Also, we destroy the clusters after every timestep and reconstruct the clusters based on the condition specified. Since, the environment is stochastic, the initial clusters will have very poor purity (arms with $\epsilon_{m}$-close expected means lying in a single cluster) whereas in the later rounds the purity becomes better which leads to the optimal arm $*$ lying in a single cluster of its own which will eliminate all the other clusters based on the cluster elimination condition. The second difference is that, we limit the cluster size from start by $\ell_{m}=2$ and then double it after every round. Since the environment is stochastic, if we do not limit the cluster size, then it will result in huge chains of clusters in the initial rounds because the initial estimates of $\hat{r}_{i},\forall i\in A$ will be poor. This condition helps in stopping such large chains of clusters.  
 
-One of the main disadvantages of AClusUCB is that it does not come with a regret upper bound proof. We do not believe that its regret upper bound can be proved in the same way as ClusUCB or EClusUCB. The reason for this is that $a_{\max_{s_{k}}}$, the true best arm of a cluster is not fixed in AClusUCB as it deconstructs and then reconstructs the cluster at every timestep. This is not an issue with ClusUCB$\big /$EClusUCB as they fix the clusters from beginning and hence $a_{\max_{s_{k}}}$ for each cluster $s_k$ is fixed from the start.
+One of the main disadvantages of AClusUCB is that it does not come with a regret upper bound proof. We do not believe that its regret upper bound can be proved in the same way as EClusUCB. The reason for this is that $a_{\max_{s_{k}}}$, the true best arm of a cluster is not fixed in AClusUCB as it deconstructs and then reconstructs the clusters at every timestep. This is not an issue with EClusUCB as it fixes the clusters from beginning and hence $a_{\max_{s_{k}}}$ for each cluster $s_k$ is fixed from the start.
 
 \section{More Experiments}
 \label{App:MoreExp}
