@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.9.30)  23 FEB 2017 10:28
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.9.30)  23 FEB 2017 10:32
 entering extended mode
  %&-line parsing enabled.
 **clustered_ucb.tex
@@ -1894,10 +1894,13 @@ Package xcolor Warning: Incompatible color definition on input line 74.
 
 Package xcolor Warning: Incompatible color definition on input line 339.
 
-[13]
 
 Package xcolor Warning: Incompatible color definition on input line 357.
 
+
+Underfull \vbox (badness 7814) has occurred while \output is active []
+
+ [13]
 
 Package xcolor Warning: Incompatible color definition on input line 407.
 
@@ -2199,7 +2202,7 @@ sfonts/symbols/msbm10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
 exlive/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-texlive/fonts/type1/
 urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmri8a.pf
 b></usr/share/texmf-texlive/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on clustered_ucb.pdf (21 pages, 462478 bytes).
+Output written on clustered_ucb.pdf (21 pages, 462633 bytes).
 PDF statistics:
  549 PDF objects out of 1000 (max. 8388607)
  105 named destinations out of 1000 (max. 500000)
