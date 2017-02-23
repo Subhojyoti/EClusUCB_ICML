@@ -56,7 +56,9 @@ Similar to case (a) of \citet{auer2010ucb}, observe that when the following two 
 \hat{r}_{i}  \le r_{i} + c_{m_i} \text{ and } 
  \hat{r}^{*}\geq  r^{*} - c_{m_i}, \label{eq:armelim-casea1}
 \end{align}
-where  $c_{m_i} = \sqrt{\frac{\rho_{a}\log (\psi T\epsilon_{m_{i}}^{2})}{2 n_{m_i}}}$. Note that any arm $i$ in the $m_{i}$-th round cannot be pulled more than $n_{m_{i}}$ number of times as it will get eliminated as arm elimination condition is being checked in every timestep. The arm $i$ gets eliminated because 
+where  $c_{m_i} = \sqrt{\frac{\rho_{a}\log (\psi T\epsilon_{m_{i}}^{2})}{2 n_{m_i}}}$. 
+%Note that any arm $i$ in the $m_{i}$-th round cannot be pulled more than $n_{m_{i}}$ number of times as it will get eliminated as arm elimination condition is being checked in every timestep. 
+As arm elimination condition is being checked in every timestep, for any $z_i\geq n_{m_i}$, the arm $i$ gets eliminated because 
   \begin{align*}
 \hat{r}_{i} +c_{m_i} & \leq r_{i} + 2c_{m_i} < r_{i} + \Delta_{i} - 2c_{m_i}\\
  &\leq r^{*} -2c_{m_i} \leq \hat{r}^{*} - c_{m_i}  .
@@ -66,9 +68,7 @@ where  $c_{m_i} = \sqrt{\frac{\rho_{a}\log (\psi T\epsilon_{m_{i}}^{2})}{2 n_{m_
 %\todos[inline]{What is $c_m$?}
   %Now, $c_{m_{i}}=\sqrt{\frac{\rho_{a}\log (\psi T\epsilon_{m_{i}}^{2})}{2 n_{m_{i}}}}$.
   %$n_{m_i} \leq n_{m_*}$ (as $*\in B_{m_i}$) and so
-In the above, we have used the fact that \\ $ c_{m_i} = \sqrt{\rho_{a}\epsilon_{m_{i}+1}} < \frac{\Delta_{i}}{4}$, since $z_i = n_{m_{i}}=\frac{2\log{(\psi T\epsilon_{m_{i}}^{2})}}{\epsilon_{m_{i}}}$ and $\rho_{a}\in (0,1]$.
-
-From the foregoing, we have to bound the events complementary to that in \eqref{eq:armelim-casea1} for an arm $i$ to not get eliminated. Considering Chernoff-Hoeffding bound this is done as follows:
+In the above, we have used the fact that\\ $ c_{m_i} = \sqrt{\rho_{a}\epsilon_{m_{i}+1}} < \frac{\Delta_{i}}{4}$, since $n_{m_{i}}=\frac{2\log{(\psi T\epsilon_{m_{i}}^{2})}}{\epsilon_{m_{i}}}$ and $\rho_{a}\in (0,1]$. From the foregoing, we have to bound the events complementary to that in \eqref{eq:armelim-casea1} for an arm $i$ to not get eliminated. Considering Chernoff-Hoeffding bound this is done as follows:
   \begin{align*}
 &\mathbb{P}\left(\hat{r}_{i}\geq r_{i} + c_{m_i}\right)\leq \exp(-2c_{m_i}^{2}n_{m_i})\\
 &\leq \exp(-2 * \frac{\rho_{a}\log (\psi T\epsilon_{m_{i}}^{2})}{2 n_{m_i}} *n_{m_i})
@@ -133,7 +133,7 @@ $\mathbb{P}\left(\hat{r}^{*}\leq r^{*} - c_{m_i}\right)\leq \frac{1}{(\psi  T\ep
 %
 %Similarly, $\mathbb{P}\bigg\lbrace\hat{r}_{a_{\max_{s_{k}}}}\geq r_{a_{\max_{s_{k}}}} + c_{g_{s_{k}}}\bigg\rbrace\leq \dfrac{1}{(\psi T\epsilon_{g_{s_{k}}}^{2})^{\rho_{s}}}$
 
-Following a parallel argument like in Case $a1$, as cluster elimination condition is being checked at  every timestep, we have to bound the following two events of arm $a_{\max_{s_{k}}}$ not getting eliminated on or before $g_{s_{k}}$-th round,
+Following a parallel argument like in Case $a1$, as cluster elimination condition is being checked at  every timestep, we have to bound the following two events of arm $a_{\max_{s_{k}}}$ not getting eliminated on or before $g_{s_{k}}$-th round for any $z_{a_{\max_{s_{k}}}}\geq n_{g_{s_k}}$,
 \begin{align*}
   \hat{r}_{a_{\max_{s_{k}}}} \geq r_{a_{\max_{s_{k}}}} +c_{g_{s_{k}}} \text{ and } \hat{r}^{*} \leq r^{*} - c_{g_{s_{k}}} 
 \end{align*} 

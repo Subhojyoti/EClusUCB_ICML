@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.9.30)  22 FEB 2017 23:02
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.9.30)  23 FEB 2017 10:28
 entering extended mode
  %&-line parsing enabled.
 **clustered_ucb.tex
@@ -1768,10 +1768,10 @@ Underfull \hbox (badness 2600) in paragraph at lines 78--80
 ann
  []
 
-[7]
 
 Package xcolor Warning: Incompatible color definition on input line 84.
 
+[7]
 
 Package xcolor Warning: Incompatible color definition on input line 87.
 
@@ -2167,7 +2167,7 @@ Package xcolor Warning: Incompatible color definition on input line 1077.
 Here is how much of TeX's memory you used:
  22813 strings out of 493848
  464372 string characters out of 1152823
- 672652 words of memory out of 3000000
+ 672588 words of memory out of 3000000
  25387 multiletter control sequences out of 15000+50000
  40659 words of font info for 94 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
@@ -2199,7 +2199,7 @@ sfonts/symbols/msbm10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
 exlive/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-texlive/fonts/type1/
 urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmri8a.pf
 b></usr/share/texmf-texlive/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on clustered_ucb.pdf (21 pages, 462520 bytes).
+Output written on clustered_ucb.pdf (21 pages, 462478 bytes).
 PDF statistics:
  549 PDF objects out of 1000 (max. 8388607)
  105 named destinations out of 1000 (max. 500000)
