@@ -1149,4 +1149,20 @@ One of the main disadvantages of AClusUCB is that it does not come with a regret
 %  	\caption{Cumulative regret for various bandit algorithms on two stochastic K-armed bandit environments. }
 %\end{figure}
 
+%\section*{To be commented later, Explaining the working of EClusUCB}
+%\begin{table}[!h]
+%\begin{center}
+%\begin{tabular}{p{1cm}p{1cm}p{1cm}p{1cm}p{1cm}p{1cm}p{1cm}p{7cm}}
+%\toprule
+%Round  & $a_1$ & $a_2$ & $*$ & $|B_{m}|$ & $n_m$& $|B_{m}|n_m$& Remarks\\
+%\hline
+%1	& 20 	& 150	& 10		& 3	& 60		&180		& * performs worse\\
+%2	& 50		& 230	& 20		& 3	& 100	&300		& Let $m=2$ is the minimum round arm $a_2$ gets eliminated. So for $a_2$ we get $n_{m_2}=300$.  \\
+%3	& 500		& 300	& 100		& 3	& 300	&900		& The instant $a_2$ gets pulled $n_{m_2}$ times it gets eliminated as arm elimination is being checked every timestep.\\
+%4	& 700		& Elim	& 700		& 2	& 700	& 1400	& Let $m=4$ is the minimum round arm $a_1$ gets eliminated. So for $a_1$ we get $n_{m_1}=700$. And so we are left with only *.\\
+%5	& Elim		& Elim	& 900		& 1	& 900	& 900	& * arm outputed.\\
+%\end{tabular}
+%\end{center}
+%\end{table}
+  	
 
