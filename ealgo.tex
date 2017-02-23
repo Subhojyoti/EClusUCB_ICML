@@ -84,6 +84,9 @@ In EClusUCB we also introduce the idea of optimistic greedy sampling similar to 
 In \citet{liu2016modification}, the authors recommend incorporating a factor of $d_i$ inside the log-term of the UCB values, i.e., $\max \lbrace\hat{r}_{i}+\sqrt{\frac{d_{i}\log T{\epsilon}_{m}^{2}}{2n_{m}}}\rbrace$. 
 The authors there examine the following choices for $d_i$: $\frac{T}{z_{i}}$, $\frac{\sqrt{T}}{z_{i}}$ and $\frac{\log T}{z_{i}}$, where $z_{i}$ is the number of times an arm ${i}$ has been sampled.
 Unlike \citet{liu2016modification}, we employ cluster as well as arm elimination and establish from a theoretical analysis that the choice $\psi=\frac{T}{196\log (K)}$ helps in achieving a better gap-dependent regret upper bound for EClusUCB as compared to UCB-Improved and MOSS (Corollary \ref{Result:Corollary:1}). 
+
+	We also introduce the algorithm Adaptive ClusUCB\footnote{Adaptive ClusUCB (AClusUCB) which estimates the clusters based on hierarchical clustering is introduced in Appendix \ref{App:AClusUCB}. An empirical study comparing its performance to EClusUCB is presented in experiment $5$, in Appendix \ref{App:MoreExp}.} in Appendix \ref{App:AClusUCB}.
+
 %In ClusUCB we modified UCB-Improved to reduce early exploration and do faster elimination of sub-optimal arms and clusters with the help of clustering and careful choosing of exploration parameters  $\psi$, $\rho_{a}$ and $\rho_{s}$. 
 %One principal disadvantage with ClusUCB is that it is a round-based algorithm. %which samples all remaining arms equally in each round (still less compared to UCB-Improved). 
 %In this section, we introduce a further modification, as shown in Algorithm \ref{alg:eclusucb} called Efficient Clustered UCB or
