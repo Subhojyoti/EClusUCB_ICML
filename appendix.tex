@@ -56,7 +56,7 @@ Let $p=1$ such that all the arms in $A$ belongs to a single cluster. Hence, in E
  	\hat{r}^{*}\geq  r^{*} - c_{m_i}
 	\end{align}
 	
-	takes place. So to bound the regret we need to bound the probability of the complementary event of these two conditions. Note that  $c_{m_{i}} = \sqrt{\frac{\rho_{a}\log (\psi T\epsilon_{m_{i}}^{2})}{2 n_{m_i}}}$. As arm elimination condition is being checked in every timestep, any arm $i$ cannot be pulled more than $z_i\geq n_{m_i}$ times or it will get eliminated. This is because in the $m_i$-th round $n_{m_{i}}=\dfrac{2\log{(\psi T\epsilon_{m_{i}}^{2})}}{\epsilon_{m_{i}}}$. Putting this in $c_{m_i}$ we get,
+	takes place. So to bound the regret we need to bound the probability of the complementary event of these two conditions. Note that  $c_{m_{i}} = \sqrt{\frac{\rho_{a}\log (\psi T\epsilon_{m_{i}}^{2})}{2 n_{m_i}}}$. As arm elimination condition is being checked in every timestep, any arm $i$ cannot be pulled more than $z_i= n_{m_i}$ times or it will get eliminated. This is because in the $m_i$-th round $n_{m_{i}}=\dfrac{2\log{(\psi T\epsilon_{m_{i}}^{2})}}{\epsilon_{m_{i}}}$. Putting this in $c_{m_i}$ we get,
   $c_{m_i}=\sqrt{\dfrac{\rho_{a}\epsilon_{m_{i}}\log (\psi T\epsilon_{m_{i}}^{2})}{2*2 \log(\psi T\epsilon_{m_{i}}^{2})}}=\dfrac{\sqrt{\rho_{a}\epsilon_{m_{i}}}}{2} \leq  \sqrt{\rho_{a}\epsilon_{m_{i}+1}} < \dfrac{\Delta_{i}}{4} $, as $\rho_{a}\in (0,1]$.
 %\leq\dfrac{\epsilon_{m}\sqrt{\ell_{m}}}{2\sqrt{w\ell_{m}}}\leq \dfrac{\epsilon_{m}}{2\sqrt{w}}$.
 %  But in $\xi_{1}$, $\ell_{m}=2^{m}$.
