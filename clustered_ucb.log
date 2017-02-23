@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.9.30)  23 FEB 2017 18:28
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.9.30)  23 FEB 2017 18:37
 entering extended mode
  %&-line parsing enabled.
 **clustered_ucb.tex
@@ -1797,24 +1797,24 @@ $ \OT1/ptm/m/n/9 to $\OT1/cmr/m/n/9 100$
 
 PGFPlots: reading {results/NewExpt/Expt4/plotFinalEclUCB012.txt}
 
-Overfull \hbox (6.37172pt too wide) in paragraph at lines 91--147
+Overfull \hbox (6.37172pt too wide) in paragraph at lines 91--148
  [][] 
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 151.
+Package xcolor Warning: Incompatible color definition on input line 152.
 
 
-Package xcolor Warning: Incompatible color definition on input line 151.
+Package xcolor Warning: Incompatible color definition on input line 152.
 
 
-Package xcolor Warning: Incompatible color definition on input line 151.
+Package xcolor Warning: Incompatible color definition on input line 152.
 
 
-Package xcolor Warning: Incompatible color definition on input line 155.
+Package xcolor Warning: Incompatible color definition on input line 156.
 
 
-Package xcolor Warning: Incompatible color definition on input line 155.
+Package xcolor Warning: Incompatible color definition on input line 156.
 
 ) [8] (./clustered_ucb.bbl
 Underfull \hbox (badness 2302) in paragraph at lines 20--25
@@ -2220,7 +2220,7 @@ sfonts/symbols/msbm10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
 exlive/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-texlive/fonts/type1/
 urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmri8a.pf
 b></usr/share/texmf-texlive/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on clustered_ucb.pdf (21 pages, 467233 bytes).
+Output written on clustered_ucb.pdf (21 pages, 467226 bytes).
 PDF statistics:
  556 PDF objects out of 1000 (max. 8388607)
  107 named destinations out of 1000 (max. 500000)
