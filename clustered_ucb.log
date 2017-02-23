@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.9.30)  23 FEB 2017 10:32
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.9.30)  23 FEB 2017 10:42
 entering extended mode
  %&-line parsing enabled.
 **clustered_ucb.tex
@@ -2166,7 +2166,11 @@ Package xcolor Warning: Incompatible color definition on input line 1077.
 
 Package xcolor Warning: Incompatible color definition on input line 1077.
 
-[20]) [21] (./clustered_ucb.aux) ) 
+[20]) [21] (./clustered_ucb.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
  22813 strings out of 493848
  464372 string characters out of 1152823
@@ -2175,8 +2179,8 @@ Here is how much of TeX's memory you used:
  40659 words of font info for 94 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  63i,29n,75p,2102b,1765s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{algorithm.2} has 
-been referenced but does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{algorithm.2} has been referenced but does not exi
+st, replaced by a fixed one
 
 pdfTeX warning (dest): name{algorithm.1} has been referenced but does not exist
 , replaced by a fixed one
@@ -2202,7 +2206,7 @@ sfonts/symbols/msbm10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
 exlive/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-texlive/fonts/type1/
 urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmri8a.pf
 b></usr/share/texmf-texlive/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on clustered_ucb.pdf (21 pages, 462633 bytes).
+Output written on clustered_ucb.pdf (21 pages, 462638 bytes).
 PDF statistics:
  549 PDF objects out of 1000 (max. 8388607)
  105 named destinations out of 1000 (max. 500000)
