@@ -140,13 +140,13 @@ From the above result, we observe that the order of the regret upper bound of EC
 %
 %\end{proof}
 \vspace*{-1.5em}
-\subsection*{Analysis of elimination error}
+\subsection*{Analysis of elimination error (Why Clustering?)}
 \vspace*{-0.4em}
 Let $\widetilde R_T$ denote the contribution  to the expected regret in the case when the optimal arm $*$ gets eliminated during one of the rounds of EClusUCB. This can happen if a sub-optimal arm eliminates $*$ or if a sub-optimal cluster eliminates the cluster $s^*$ that contains $*$ -- these correspond to cases b2 and b3 in the proof of Theorem \ref{Result:Theorem:1} (see Section \ref{sec:proofTheorem}). 
 We shall denote variant of EClusUCB that includes arm elimination condition only as EClusUCB-AE while EClusUCB corresponds to Algorithm \ref{alg:eclusucb}, which uses both arm and cluster elimination conditions. The regret upper bound for EClusUCB-AE is given in Proposition \ref{proofTheorem:Prop:1} in Appendix \ref{App:A}.
 
 For EClusUCB-AE, the quantity $\widetilde R_T$ can be extracted from the proofs (in particular, case b2 in Appendix \ref{App:A}) and simplified using the values $\rho_{a}=\frac{1}{2}$ and $\psi=\frac{T}{196 \log K}$, to obtain $\widetilde R_T = 150\sqrt{KT\log K}+150\sqrt{KT}$. 
 %A similar exercise for ClusUCB-CE (see Case b2 in Appendix \ref{App:B}) with $\rho_{s}=\frac{1}{2}$ and $\psi=\frac{T}{\log K}$ yields $\tilde R_T = 4\sqrt{KT\log K}$. 
-Finally, for EClusUCB, the relevant terms from Theorem \ref{Result:Theorem:1} that corresponds to $\widetilde R_T$ can be simplified with $\rho_{a}=\frac{1}{2}$, $\rho_{s}=\frac{1}{2},p=\big\lceil \frac{K}{\log K} \big\rceil$ and $\psi=\frac{T}{\log K}$ (as in Corollary \ref{Result:Corollary:2} to obtain  
+Finally, for EClusUCB, the relevant terms from Theorem \ref{Result:Theorem:1} that corresponds to $\widetilde R_T$ can be simplified with $\rho_{a}=\frac{1}{2}$, $\rho_{s}=\frac{1}{2},p=\big\lceil \frac{K}{\log K} \big\rceil$ and $\psi=\frac{T}{196\log K}$ (as in Corollary \ref{Result:Corollary:2} to obtain  
 $\tilde R_T = \frac{150 \sqrt{T}\log K^{\frac{3}{2}} }{\sqrt{K}} + \frac{150 \sqrt{T}\log K}{\sqrt{K}} + 300 \frac{K}{K+\log K}\sqrt{KT\log K} + 300 \frac{K}{K+\log K}\sqrt{KT}$. Hence, in comparison to EClusUCB-AE which has an elimination regret bound of $O(\sqrt{KT\log K})$, the elimination error contribution to regret is lower in EClusUCB which has a bound of $O(\frac{K}{K+\log K}\sqrt{KT\log K})$. Thus, we observe that clustering in conjunction with improved exploration via $\rho_{a},\rho_{s}$,$p$ and $\psi$ helps in reducing the factor associated with $\sqrt{KT\log K}$ for the gap-independent error regret bound for EClusUCB. Also in section \ref{sec:expts}, in experiment $4$ we show that EClusUCB outperforms EClusUCB-AE. A table containing the regret error bound is shown in Appendix \ref{App:E} and further experiment showing that the performance of EClusUCB against CCB\cite{liu2016modification} is shown in Appendix \ref{App:MoreExp}.
 %showing that the performance of EClusUCB-AE is indeed sub-optimal and choice of $p$ is indeed close to optimal
