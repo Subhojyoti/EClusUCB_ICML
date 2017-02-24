@@ -1,4 +1,4 @@
-\begin{thebibliography}{30}
+\begin{thebibliography}{34}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -49,6 +49,13 @@ Auer, Peter, Cesa-Bianchi, Nicolo, Freund, Yoav, and Schapire, Robert~E.
 \newblock The nonstochastic multiarmed bandit problem.
 \newblock \emph{SIAM Journal on Computing}, 32\penalty0 (1):\penalty0 48--77,
   2002{\natexlab{b}}.
+
+\bibitem[Awerbuch \& Kleinberg(2008)Awerbuch and
+  Kleinberg]{awerbuch2008competitive}
+Awerbuch, Baruch and Kleinberg, Robert.
+\newblock Competitive collaborative learning.
+\newblock \emph{Journal of Computer and System Sciences}, 74\penalty0
+  (8):\penalty0 1271--1288, 2008.
 
 \bibitem[Beygelzimer et~al.(2011)Beygelzimer, Langford, Li, Reyzin, and
   Schapire]{beygelzimer2011contextual}
@@ -115,6 +122,13 @@ Gentile, Claudio, Li, Shuai, and Zappella, Giovanni.
 \newblock Online clustering of bandits.
 \newblock In \emph{ICML}, pp.\  757--765, 2014.
 
+\bibitem[Hillel et~al.(2013)Hillel, Karnin, Koren, Lempel, and
+  Somekh]{hillel2013distributed}
+Hillel, Eshcar, Karnin, Zohar~S, Koren, Tomer, Lempel, Ronny, and Somekh, Oren.
+\newblock Distributed exploration in multi-armed bandits.
+\newblock In \emph{Advances in Neural Information Processing Systems}, pp.\
+  854--862, 2013.
+
 \bibitem[Honda \& Takemura(2010)Honda and Takemura]{honda2010asymptotically}
 Honda, Junya and Takemura, Akimichi.
 \newblock An asymptotically optimal bandit algorithm for bounded support
@@ -152,6 +166,12 @@ Li, Lihong, Chu, Wei, Langford, John, and Schapire, Robert~E.
 \newblock In \emph{Proceedings of the 19th international conference on World
   wide web}, pp.\  661--670. ACM, 2010.
 
+\bibitem[Liu \& Zhao(2010)Liu and Zhao]{liu2010distributed}
+Liu, Keqin and Zhao, Qing.
+\newblock Distributed learning in multi-armed bandit with multiple players.
+\newblock \emph{IEEE Transactions on Signal Processing}, 58\penalty0
+  (11):\penalty0 5667--5681, 2010.
+
 \bibitem[Liu \& Tsuruoka(2016)Liu and Tsuruoka]{liu2016modification}
 Liu, Yun-Ching and Tsuruoka, Yoshimasa.
 \newblock Modification of improved upper confidence bounds for regulating
@@ -176,6 +196,13 @@ Slivkins, Aleksandrs.
 \newblock Contextual bandits with similarity information.
 \newblock \emph{Journal of Machine Learning Research}, 15\penalty0
   (1):\penalty0 2533--2568, 2014.
+
+\bibitem[Sz{\"o}r{\'e}nyi et~al.(2013)Sz{\"o}r{\'e}nyi, Busa-Fekete,
+  Heged{\"u}s, Orm{\'a}ndi, Jelasity, and K{\'e}gl]{szorenyi2013gossip}
+Sz{\"o}r{\'e}nyi, Bal{\'a}zs, Busa-Fekete, R{\'o}bert, Heged{\"u}s, Istv{\'a}n,
+  Orm{\'a}ndi, R{\'o}bert, Jelasity, M{\'a}rk, and K{\'e}gl, Bal{\'a}zs.
+\newblock Gossip-based distributed stochastic bandit algorithms.
+\newblock In \emph{ICML (3)}, pp.\  19--27, 2013.
 
 \bibitem[Thompson(1933)]{thompson1933likelihood}
 Thompson, William~R.
