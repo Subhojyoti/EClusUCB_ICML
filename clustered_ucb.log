@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.9.30)  25 FEB 2017 00:12
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.9.30)  25 FEB 2017 00:24
 entering extended mode
  %&-line parsing enabled.
 **clustered_ucb.tex
@@ -2237,7 +2237,7 @@ Package xcolor Warning: Incompatible color definition on input line 1077.
 Here is how much of TeX's memory you used:
  22882 strings out of 493848
  465733 string characters out of 1152823
- 699547 words of memory out of 3000000
+ 699728 words of memory out of 3000000
  25442 multiletter control sequences out of 15000+50000
  40659 words of font info for 94 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
@@ -2270,7 +2270,7 @@ m7.pfb></usr/share/texmf-texlive/fonts/type1/urw/courier/ucrr8a.pfb></usr/share
 /type1/urw/times/utmbi8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/ut
 mr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmri8a.pfb></usr/shar
 e/texmf-texlive/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on clustered_ucb.pdf (21 pages, 478655 bytes).
+Output written on clustered_ucb.pdf (21 pages, 478745 bytes).
 PDF statistics:
  571 PDF objects out of 1000 (max. 8388607)
  112 named destinations out of 1000 (max. 500000)
