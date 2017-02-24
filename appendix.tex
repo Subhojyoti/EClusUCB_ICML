@@ -867,7 +867,7 @@ Now, $\epsilon_{m_{i}}\geq \sqrt{\dfrac{K}{14 T}}$ and $\epsilon_{g_{s_{k}}}\geq
 & \leq \bigg(\dfrac{4K^{\frac{3}{2} +2\rho_a}\log (\psi T )}{T^{\frac{3}{2}}(\psi T^2)^{\rho_{a}}}\bigg) + \bigg(\dfrac{4K^{\frac{3}{2} +2\rho_s}\log (\psi T )}{T^{\frac{3}{2}}(\psi T^2)^{\rho_{s}}}\bigg)
 \end{align*}
 
-Now, applying the bound from Fact 2, we can show that the probability of the sub-optimal arm $i$ being pulled is bounded above by,
+Now, applying the bound from Fact 2 and taking into consideration that $c_{m}=\dfrac{c_0}{2^m}$, we can show that the probability of the sub-optimal arm $i$ being pulled is bounded above by,
 
 \begin{align*}
 P_{i} = \sum_{m=0}^{M} \delta_{m}.Q_{m} &\leq \sum_{m=0}^{M} \bigg\lbrace\bigg(\dfrac{4K^{\frac{3}{2} +2\rho_a}\log (\psi T )}{T^{\frac{3}{2}}(\psi T^2)^{\rho_{a}}}\bigg) + \bigg(\dfrac{4K^{\frac{3}{2} +2\rho_{s}}\log (\psi T )}{T^{\frac{3}{2}}(\psi T^2)^{\rho_{s}}}\bigg)\bigg\rbrace 2\gamma \exp(-\dfrac{c_{m}\sqrt{T}}{4})\\
@@ -891,14 +891,14 @@ SR_{EClusUCB} &= \sum_{i=1}^{K} \Delta_{i}. P_{i} \leq \sum_{i=1}^{K} \Delta_{i}
 
 \begin{corollary}
 \label{Result:Corollary:3}
-For $\psi=\dfrac{T}{196\log (K)}$, $\rho_a=\frac{1}{2}$ and $\rho_s=\frac{1}{2}$, the simple regret of EClusUCB is given by,
+For $\psi=\dfrac{T}{196\log (K)}$, $\rho_a=\dfrac{1}{2}$ and $\rho_s=\dfrac{1}{2}$, the simple regret of EClusUCB is given by,
 \begin{align*}
 SR_{EClusUCB} \leq 8 \log_{2}\dfrac{14 T}{K} K^{\frac{5}{2}} \gamma \sum_{i=1}^{K} \Delta_{i} \exp(-\dfrac{c_{0}\sqrt{e}}{4})   \bigg(\dfrac{2 \sqrt{14\log (K)} \log (\dfrac{T}{\sqrt{14\log (K)}} )}{T^{3}}\bigg)
 \end{align*}
 \end{corollary}
 
 \begin{proof}
-Putting $\psi=\dfrac{T}{196 \log (K)}$, $\rho_a=\frac{1}{2}$ and $\rho_s=\frac{1}{2}$ in the simple regret obtained in Theorem \ref{Result:Theorem:3}, we get
+Putting $\psi=\dfrac{T}{196 \log (K)}$, $\rho_a=\dfrac{1}{2}$ and $\rho_s=\dfrac{1}{2}$ in the simple regret obtained in Theorem \ref{Result:Theorem:3}, we get
 \begin{align*}
 SR_{EClusUCB} &\leq 8 \log_{2}\dfrac{14 T}{K} K^{\frac{5}{2}} \gamma \sum_{i=1}^{K} \Delta_{i} \exp(-\dfrac{c_{0}\sqrt{e}}{4})   \bigg(\dfrac{\log (\dfrac{T^{2}}{196 \log (K)} )}{T^{\frac{3}{2}}(\frac{T^3}{196\log (K)})^{\frac{1}{2}}}\bigg)\\
 & \leq 8 \log_{2}\dfrac{14 T}{K} K^{\frac{5}{2}} \gamma  \sum_{i=1}^{K} \Delta_{i} \exp(-\dfrac{c_{0}\sqrt{e}}{4}) \bigg(\dfrac{2 \sqrt{14\log (K)} \log (\dfrac{T}{\sqrt{14\log (K)}} )}{T^{3}}\bigg)
