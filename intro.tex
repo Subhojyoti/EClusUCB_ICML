@@ -6,8 +6,8 @@ Let $r_i$, $i=1,\ldots,K$ denote the mean reward of the $i$th arm out of the $K$
 \begin{align*}
 R_{T}=r^{*}T - \sum_{i\in A} r_{i}N_{i}(T),
 \end{align*}
-where $T$ is the number of rounds, $N_{i}(T)=\sum_{m=1}^T I(I_m=i)$ is the number of times the algorithm has chosen arm $i$ up to round $T$.
-The expected regret of an algorithm after $T$ rounds can be written as
+where $T$ is the number of rounds, $N_{i}(T)=\sum_{m=1}^T I(I_m=i)$ is the number of times the algorithm has chosen arm $i$ up to timestep $T$.
+The expected regret of an algorithm after $T$ timesteps can be written as
 %\newline
 %\newline
 \begin{align*}
@@ -33,7 +33,7 @@ The idea of clustering in the bandit framework is not entirely new. In particula
 %Clustering has been extensively studied in the area of contextual MAB. In contextual MAB, there are side-information or features attached to each arm (see  \citet{auer2002using,langford2008epoch,li2010contextual,beygelzimer2011contextual, slivkins2014contextual}).  In contextual MAB clustering is done over the features representing the arms to capture the complexity of the problem better when a large-number of arms are involved  \cite{bui2012clustered,cesa2013gang,gentile2014online}. Please note that we do not cluster over the context rather we cluster the arms into groups.
 \vspace*{-0.7em}
 \subsection{Our Contribution}
-We propose a variant of UCB algorithm, henceforth referred to as EClusUCB, that incorporates clustering and an improved exploration scheme. EClusUCB starts with partitioning of arms into small clusters, each having same number of arms. The clustering is done at the start with a prespecified number of clusters. 
+We propose a variant of UCB algorithm, called Efficient Clustered UCB, henceforth referred to as EClusUCB, that incorporates clustering and an improved exploration scheme. EClusUCB starts with partitioning of arms into small clusters, each having same number of arms. The clustering is done at the start with a prespecified number of clusters. 
 Each timestep of EClusUCB involves both (individual) arm elimination as well as cluster elimination. This is the first algorithm in bandit literature which uses two simultaneous arm elimination conditions per timestep and show both theoretically and empirically that such an approach is indeed helpful.
 
 

@@ -1,4 +1,7 @@
-\begin{figure}[!tbp]
+We conduct an empirical performance using cumulative regret as the metric. We implement the following algorithms:  KL-UCB\cite{garivier2011kl}, DMED\cite{honda2010asymptotically}, MOSS\cite{audibert2009minimax}, UCB1\cite{auer2002finite}, UCB-Improved\cite{auer2010ucb}, Median Elimination\cite{even2006action}, Thompson Sampling(TS)\cite{agrawal2011analysis}, OCUCB\cite{lattimore2015optimally}, Bayes-UCB(BU)\cite{kaufmann2012bayesian} and UCB-V\cite{audibert2009exploration}\footnote{The implementation for KL-UCB, Bayes-UCB and DMED were taken from \cite{CapGarKau12}}. The parameters of EClusUCB algorithm for all the experiments are set as follows: $\psi=\frac{T}{196 \log K}$, $\rho_{s}=0.5$, $\rho_{a}=0.5$ and $p=\lceil\frac{K}{\log K}\rceil$ (as in Corollary \ref{Result:Corollary:2}).
+%whereas for ClusUCB(Aggressive)$\big/$EClusUCB(Aggressive) or ClusUCBA$\big/$EClusUCBA algorithm the parameters are set as $\psi=\log T$, $\rho_{s}=0.5$, $\rho_{a}=0.5$ and $p=\lceil\frac{K}{\log K}\rceil$. We can clearly see that EClusUCBA has a lower exploration regulatory factor and conducts less exploration and is a riskier algorithm than EClusUCB.
+
+\begin{figure}[!h]
     \centering
     \begin{tabular}{cc}
     \setlength{\tabcolsep}{0.1pt}
@@ -75,8 +78,6 @@
     \vspace*{-1em}
 \end{figure}
 % For the purpose of performance comparison
-We conduct an empirical performance using cumulative regret as the metric. We implement the following algorithms:  KL-UCB\cite{garivier2011kl}, DMED\cite{honda2010asymptotically}, MOSS\cite{audibert2009minimax}, UCB1\cite{auer2002finite}, UCB-Improved\cite{auer2010ucb}, Median Elimination\cite{even2006action}, Thompson Sampling(TS)\cite{agrawal2011analysis}, OCUCB\cite{lattimore2015optimally}, Bayes-UCB(BU)\cite{kaufmann2012bayesian} and UCB-V\cite{audibert2009exploration}\footnote{The implementation for KL-UCB, Bayes-UCB and DMED were taken from \cite{CapGarKau12}}. The parameters of EClusUCB algorithm for all the experiments are set as follows: $\psi=\frac{T}{196 \log K}$, $\rho_{s}=0.5$, $\rho_{a}=0.5$ and $p=\lceil\frac{K}{\log K}\rceil$ (as in Corollary \ref{Result:Corollary:2}).
-%whereas for ClusUCB(Aggressive)$\big/$EClusUCB(Aggressive) or ClusUCBA$\big/$EClusUCBA algorithm the parameters are set as $\psi=\log T$, $\rho_{s}=0.5$, $\rho_{a}=0.5$ and $p=\lceil\frac{K}{\log K}\rceil$. We can clearly see that EClusUCBA has a lower exploration regulatory factor and conducts less exploration and is a riskier algorithm than EClusUCB.
 
 
 \textbf{First experiment:} This is conducted over a testbed of $20$ arms in an environment involving Bernoulli reward distributions with expected rewards of the arms $r_{i_{{i}\neq {*}}}=0.07$ and $r^{*}=0.1$. These type of cases are frequently encountered in web-advertising domain. The horizon $T$ is set to $60000$. 
@@ -136,8 +137,9 @@ The regret is averaged over $100$ independent runs and is shown in Figure \ref{f
       	% UCB
 		%\addplot table{results/NewExpt/Expt4/plotFinalAclUCB012.txt};
 		\addplot table{results/NewExpt/Expt4/plotFinalEclUCB012.txt};
+		\addplot table{results/NewExpt/Expt4/plotFinalEclUCB_AE012.txt};
       	%\legend{EClusUCBA,AClusUCBA,EClusUCB,AClusUCB} 
-      	\legend{EClusUCB} 
+      	\legend{EClusUCB,EClusUCB-AE} 
       	\end{axis}
       	%node[X={$EClusUCB-AE$}] -- (1,5)
       	\end{tikzpicture}
