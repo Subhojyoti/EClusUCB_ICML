@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.9.30)  24 FEB 2017 22:25
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.9.30)  24 FEB 2017 22:30
 entering extended mode
  %&-line parsing enabled.
 **clustered_ucb.tex
@@ -1224,6 +1224,12 @@ Underfull \hbox (badness 1584) in paragraph at lines 117--119
  []
 
 (./intro.tex
+Underfull \hbox (badness 5119) in paragraph at lines 8--13
+\OT1/ptm/m/n/10 where $\OML/cmm/m/it/10 T$ \OT1/ptm/m/n/10 is the num-ber of ti
+mesteps, $\OML/cmm/m/it/10 N[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 T\OT1/cmr/m/n/1
+0 ) =
+ []
+
 
 Package xcolor Warning: Incompatible color definition on input line 24.
 
@@ -2272,7 +2278,7 @@ m7.pfb></usr/share/texmf-texlive/fonts/type1/urw/courier/ucrr8a.pfb></usr/share
 /type1/urw/times/utmbi8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/ut
 mr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmri8a.pfb></usr/shar
 e/texmf-texlive/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on clustered_ucb.pdf (21 pages, 479547 bytes).
+Output written on clustered_ucb.pdf (21 pages, 479566 bytes).
 PDF statistics:
  575 PDF objects out of 1000 (max. 8388607)
  112 named destinations out of 1000 (max. 500000)
