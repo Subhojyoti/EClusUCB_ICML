@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.18)  24 FEB 2017 00:42
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.18)  24 FEB 2017 07:08
 entering extended mode
 **clustered_ucb.tex
 (C:\Users\Subhojyoti\Desktop\github\EClusUCB_ICML\clustered_ucb.tex
@@ -2324,7 +2324,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 181.
 Here is how much of TeX's memory you used:
  31452 strings out of 493921
  743738 string characters out of 3144861
- 997531 words of memory out of 3000000
+ 998532 words of memory out of 3000000
  34002 multiletter control sequences out of 15000+200000
  40659 words of font info for 94 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -2353,7 +2353,7 @@ type1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw
 i8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb><C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on clustered_ucb.pdf (21 pages, 466886 bytes).
+Output written on clustered_ucb.pdf (21 pages, 466890 bytes).
 PDF statistics:
  556 PDF objects out of 1000 (max. 8388607)
  107 named destinations out of 1000 (max. 500000)
