@@ -141,7 +141,10 @@ The regret is averaged over $100$ independent runs and is shown in Figure \ref{f
       	%\legend{EClusUCBA,AClusUCBA,EClusUCB,AClusUCB} 
       	\legend{EClusUCB} 
       	\end{axis}
-      	%node[X={$EClusUCB-AE$}] -- (1,5)
+      	\draw (.7,5.27) circle (0.5 cm);
+      	code={
+        \node[red,above] at (axis cs:3.0,4.27){\tiny{EClusUCB-AE}};
+    		}
       	\end{tikzpicture}
   		\label{fig:4}
     }

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.9.30)  24 FEB 2017 17:15
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.9.30)  24 FEB 2017 17:46
 entering extended mode
  %&-line parsing enabled.
 **clustered_ucb.tex
@@ -1796,25 +1796,30 @@ $ \OT1/ptm/m/n/9 to $\OT1/cmr/m/n/9 100$
  []
 
 PGFPlots: reading {results/NewExpt/Expt4/plotFinalEclUCB012.txt}
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
 
-Overfull \hbox (6.37172pt too wide) in paragraph at lines 92--150
+Overfull \hbox (6.37172pt too wide) in paragraph at lines 92--153
  [][] 
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 154.
+Package xcolor Warning: Incompatible color definition on input line 157.
 
 
-Package xcolor Warning: Incompatible color definition on input line 154.
+Package xcolor Warning: Incompatible color definition on input line 157.
 
 
-Package xcolor Warning: Incompatible color definition on input line 154.
+Package xcolor Warning: Incompatible color definition on input line 157.
 
 
-Package xcolor Warning: Incompatible color definition on input line 158.
+Package xcolor Warning: Incompatible color definition on input line 161.
 
 
-Package xcolor Warning: Incompatible color definition on input line 158.
+Package xcolor Warning: Incompatible color definition on input line 161.
 
 )
 
@@ -2214,10 +2219,10 @@ Package xcolor Warning: Incompatible color definition on input line 1077.
 
 ) [21] (./clustered_ucb.aux) ) 
 Here is how much of TeX's memory you used:
- 22852 strings out of 493848
- 465193 string characters out of 1152823
- 696829 words of memory out of 3000000
- 25420 multiletter control sequences out of 15000+50000
+ 22854 strings out of 493848
+ 465227 string characters out of 1152823
+ 696938 words of memory out of 3000000
+ 25422 multiletter control sequences out of 15000+50000
  40659 words of font info for 94 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  63i,29n,75p,2102b,1763s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2248,7 +2253,7 @@ sfonts/symbols/msbm10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
 exlive/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-texlive/fonts/type1/
 urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmri8a.pf
 b></usr/share/texmf-texlive/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on clustered_ucb.pdf (21 pages, 470077 bytes).
+Output written on clustered_ucb.pdf (21 pages, 470239 bytes).
 PDF statistics:
  567 PDF objects out of 1000 (max. 8388607)
  111 named destinations out of 1000 (max. 500000)
